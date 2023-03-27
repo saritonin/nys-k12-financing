@@ -1,1 +1,30 @@
 # nys-k12-financing
+
+# Geography
+## Geographic Boundaries 
+School district boundary information is updated annually via the [School District Review Program](https://www.census.gov/programs-surveys/sdrp.html).  The resultant GIS data is available via the Census Bureau's TIGER/LINE Shapefiles or via the NCES Education Demographic and Geographic
+Estimates (EDGE) Program website.
+- [TIGER/Line Shapefiles](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html)
+- [TIGER/Line Documentation](https://www.census.gov/programs-surveys/geography/technical-documentation/complete-technical-documentation/tiger-geo-line.html)
+- [NCES EDGE Program](https://nces.ed.gov/programs/edge/Geographic/DistrictBoundaries)
+- [NCES EDGE Documentation](https://nces.ed.gov/programs/edge/docs/EDGE_SDBOUNDARIES_COMPOSITE_FILEDOC.pdf)
+
+### Geographic Relationships
+School districts don't fit into standard geographic hierarchies at all.  They can cross state lines, counties, cities, towns, villages, and even a single Census block may have multiple school districts within its boundaries.  NCES provides a set of relationship files to help determine how school districts overlap with other entities.
+- [Geographic relationship files](https://nces.ed.gov/programs/edge/Geographic/RelationshipFiles)
+
+# Finances
+## US Census Bureau
+### Annual Survey of School System Finances
+- [Landing page](https://www.census.gov/programs-surveys/school-finances.html)
+- [Data tables](https://www.census.gov/programs-surveys/school-finances/data/tables.html)
+- [Documentation](https://www.census.gov/programs-surveys/school-finances/technical-documentation.html)
+
+# Demographics
+## National Center for Education Statistics
+- American Community Survey – Education Tabulation (ACS-ED)
+- [ACS Data](https://www.census.gov/programs-surveys/acs/data.html)
+- [ACS Documentation](https://www.census.gov/programs-surveys/acs/technical-documentation.html)
+To download the ACS Data tables, I used data.census.gov.
+1. Geography: School Districts (Unified) > New York > All = https://data.census.gov/all?g=040XX00US36$9700000 
+2. Surveys: American Community Survey > 5-Year Estimates > Data Profiles = https://data.census.gov/all?g=040XX00US36$9700000&d=ACS+5-Year+Estimates+Data+Profiles
