@@ -13,6 +13,9 @@ Estimates (EDGE) Program website.
 School districts don't fit into standard geographic hierarchies at all.  They can cross state lines, counties, cities, towns, villages, and even a single Census block may have multiple school districts within its boundaries.  NCES provides a set of relationship files to help determine how school districts overlap with other entities.
 - [Geographic relationship files](https://nces.ed.gov/programs/edge/Geographic/RelationshipFiles)
 
+### Geographic Metadata
+In the census_gis_counties table provided in this data set, the Statewide (GEOID=36000) INTPTLAT and INTPTLON come from the Census bureau's [State Area Measurements and Internal Point Coordinates](https://www.census.gov/geographies/reference-files/2010/geo/state-area.html).  However, the area calculations were done by summing the respective columns (ALAND and AWATER) to provide data that is consistent with the 2020 SDRP GIS files.
+
 # Finances
 ## US Census Bureau
 ### Annual Survey of School System Finances
