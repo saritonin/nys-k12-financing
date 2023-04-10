@@ -24,10 +24,18 @@ In the census_gis_counties table provided in this data set, the Statewide (GEOID
 - [Documentation](https://www.census.gov/programs-surveys/school-finances/technical-documentation.html)
 
 # Demographics
-## National Center for Education Statistics
-- American Community Survey – Education Tabulation (ACS-ED)
+## US Census Bureau
+### Small Area Income and Poverty Estimates
+- [Landing page](https://www.census.gov/programs-surveys/saipe.html)
+- [Data tables](https://www.census.gov/programs-surveys/saipe/data/datasets.html)
+- [Documentation](https://www.census.gov/programs-surveys/saipe/technical-documentation.html)
+- [Guidance for data users](https://www.census.gov/programs-surveys/saipe/guidance.html)
+
+### American Community Survey – Education Tabulation (ACS-ED)
 - [ACS Data](https://www.census.gov/programs-surveys/acs/data.html)
 - [ACS Documentation](https://www.census.gov/programs-surveys/acs/technical-documentation.html)
 To download the ACS Data tables, I used data.census.gov.
 1. Geography: School Districts (Unified) > New York > All = https://data.census.gov/all?g=040XX00US36$9700000 
 2. Surveys: American Community Survey > 5-Year Estimates > Data Profiles = https://data.census.gov/all?g=040XX00US36$9700000&d=ACS+5-Year+Estimates+Data+Profiles
+
+## National Center for Education Statistics
