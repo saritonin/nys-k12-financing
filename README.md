@@ -1,4 +1,10 @@
 # nys-k12-financing
+## Latest Updates
+This is work in progress.  Here are the latest updates and current areas of focus:
+- ✅ Geographic data shapefiles and metadata for counties, school districts, and their intersection
+- ✅ Census SAIPE data
+- 🔜 Census Annual Survey of School System Finances
+
 ## Abstract
 Information about public financing for New York’s K-12 schools is spread across multiple data sources, including the U.S. Census Bureau, the U.S. Department of Education, and the New York State Education Department (NYSED).  This data model brings together these disparate data sources to get a more holistic view of public financing for K-12 schools in New York.
 
