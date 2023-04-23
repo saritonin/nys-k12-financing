@@ -34,6 +34,9 @@ The [FTP archive](https://www2.census.gov/geo/tiger/TIGER2020/) is arranged by [
 - [UNSD/](https://www2.census.gov/geo/tiger/TIGER2020/UNSD/)
 - tl_2020_36_unsd.zip
 
+### tl_2020_36_county_unsd_intersect.zip
+I took the county and unsd files and used QGIS to calculate an intersection from them and add geometry information (see below for full instructions).
+
 ## Instructions for QGIS transformations
 ### Deleting non-NY counties from the national file
 1. Unzip tl_2020_us_county.zip
