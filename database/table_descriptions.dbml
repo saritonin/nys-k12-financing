@@ -149,7 +149,7 @@ Table census_saipe_sd {
 e.g. 02460 = Albany City School District']
   CALC_GEOID varchar(7) [pk, note: 'Calculated field: STATEFP || DISTRICT_ID
 e.g. 3602460 = Albany City School District']
-  DISTRICT_NAME varchar(72) [note: 'District Name
+  DISTRICT_NAME varchar(100) [note: 'District Name
 e.g. Albany City School District']
   TOTAL_POP numeric(8) [note: 'Total Population']
   POP_CHILD numeric(8) [note: 'Population of Relevant Children 5 to 17 years of Age']
@@ -186,13 +186,96 @@ Table census_saipe_county {
   EST_MED_INC varchar(6) [note: 'Estimate of median household income']
   EST_MED_INC_90L varchar(6) [note: '90% confidence interval lower bound of estimate of median household income']
   EST_MED_INC_90U varchar(6) [note: '90% confidence interval upper bound of estimate of median household income']
-  COUNTY_NAME varchar(45) [note: 'State or county name']
+  COUNTY_NAME varchar(100) [note: 'State or county name']
   STATE_POSTAL varchar(2) [note: 'Two-letter Postal State abbreviation']
   FILENAME_DATE varchar(22) [note: 'A tag indicating the file name and date of creation']  
   note: 'Small Area Income and Poverty Estimates (SAIPE) Program data by county'
 }
 
 Ref: census_saipe_county.CALC_GEOID > census_gis_counties.GEOID
+
+// **************************************************************************************
+// Annual Survey of School System Finances
+// **************************************************************************************
+Table census_asssf_unit_tables {
+  IDCENSUS varchar(14) [note: 'School System Identification Number; a concatenation of STATECODE (NOT FIPS), GOVTYPE_CODE, COUNTYFP, and others']
+  NAME     varchar(100) [note: 'School System Name']
+  CONUM    varchar(5) [note: 'ANSI State and County Code (FIPS)']
+  CSA      varchar(3) [note: 'Consolidated Statistical Area']
+  CBSA     varchar(5) [note: 'Core-Based Statistical Area']
+  NCESID   varchar(7) [pk, note: 'NCES Identification Number'] 
+  ENROLL   integer [note: 'Fall Membership']
+  TOTALREV integer [note: 'TOTAL ELEMENTARY-SECONDARY REVENUE (thousands of dollars)']
+  TFEDREV  integer [note: 'Total Revenue from Federal Sources']
+  FEDRCOMP integer [note: '  Compensatory (Title I)']
+  FEDRSPEC integer [note: '  Children with disabilities']
+  FEDRNUTR integer [note: '  Child Nutrition Act']
+  FEDROTHR integer [note: '  All other federal aid']
+  TSTREV   integer [note: 'Total Revenue from State Sources']
+  STRFORM  integer [note: '  General formula assistance']
+  STRSPEC  integer [note: '  Special education programs']
+  STRTRANS integer [note: '  Transportation programs']
+  STROTHR  integer [note: '  All other state revenue']
+  TLOCREV  integer [note: 'Total Revenue from Local Sources']
+  LOCRTAX  integer [note: '  All taxes']
+  LOCRPROP integer [note: '  Property taxes']
+  LOCRPAR  integer [note: '  Parent government contributions']
+  LOCRCICO integer [note: '  Revenue from cities and counties']
+  LOCROSCH integer [note: '  Revenue from other school systems']
+  LOCRCHAR integer [note: '  Charges']
+  LOCROTHR integer [note: '  Other local revenues']
+  TOTALEXP integer [note: 'TOTAL ELEMENTARY-SECONDARY EXPENDITURE (thousands of dollars)']
+  TCURSPND integer [note: '  Total Current Spending']
+  TSALWAGE integer [note: '    Total salaries and wages']
+  TEMPBENE integer [note: '    Total employee benefit payments']
+  TCURINST integer [note: '  Total Current Spending for Instruction']
+  TCURISAL integer [note: '    Salaries and wages for instruction']
+  TCURIBEN integer [note: '    Employee benefits for instruction']
+  TCURSSVC integer [note: '  Total Current Spending for Support Services']
+  TCURSPUP integer [note: '    Pupil support']
+  TCURSSTA integer [note: '    Instructional staff support']
+  TCURSGEN integer [note: '    General administration']
+  TCURSSCH integer [note: '    School administration']
+  TCURSOTH integer [note: '    Other and nonspecified']
+  TCURONON integer [note: '  Other Current Spending']
+  TCAPOUT  integer [note: '  Total Capital Outlay Expenditure']
+  TPAYOTH  integer [note: '  Payments to Other Governments']
+  TINTRST  integer [note: '  Interest on School System Indebtedness']
+  DEBTOUT  integer [note: '  Long-term debt outstanding at end of the fiscal year']
+  LONGISSU integer [note: '  Long-term debt issued during the fiscal year']
+  LONGRET  integer [note: '  Long-term debt retired during the fiscal year']
+  PCTTOTAL double  [note: 'PERCENT - TOTAL ELEMENTARY-SECONDARY REVENUE']
+  PCTFTOT  double  [note: '  Percent - Total Revenue from Federal Sources']
+  PCTFCOMP double  [note: '  Percent - Compensatory (Title I)']
+  PCTSTOT  double  [note: '  Percent - Total Revenue from State Sources']
+  PCTSFORM double  [note: '  Percent - General formula assistance']
+  PCTLTOT  double  [note: '  Percent - Total Revenue from Local Sources']
+  PCTLTAXP double  [note: '  Percent - Taxes and parent government contributions']
+  PCTLOTHG double  [note: '  Percent - Revenue from other local governments']
+  PCTLCHAR double  [note: '  Percent - Charges']
+  PPCSTOT  integer [note: 'PER PUPIL - TOTAL CURRENT SPENDING (ELEMENTARY-SECONDARY)']
+  PPSALWG  integer [note: '  Per Pupil - Total salaries and wages']
+  PPEMPBEN integer [note: '  Per Pupil - Total employee benefit payments']
+  PPITOTAL integer [note: '  Per Pupil - Total Current Spending for Instruction']
+  PPISALWG integer [note: '  Per Pupil - Salaries and wages']
+  PPIEMBEN integer [note: '  Per Pupil - Employee benefits']
+  PPSTOTAL integer [note: '  Per Pupil - Total Current Spending for Support Services']
+  PPSPUPIL integer [note: '  Per Pupil - Pupil support']
+  PPSSTAFF integer [note: '  Per Pupil - Instructional staff support']
+  PPSGENAD integer [note: '  Per Pupil - General administration']
+  PPSSCHAD integer [note: '  Per Pupil - School administration']
+  GOVTYPE_CODE char(1) [note: 'The 3rd character from IDCENSUS']
+  GOVTYPE_DESC varchar(100) [note: 'Lookup value from p.26 of school20doc']
+  DEPENDENT_ID varchar(5) [note: 'State FIPS code; characters 1-2 of CONUM']
+  STATEFP char(2) [note: 'State FIPS code; characters 1-2 of CONUM']
+  COUNTYFP char(3) [note: 'County FIPS code; characters 3-5 of CONUM']
+  LEAID char(5) [note: 'LEA code; characters 3-7 of NCESID']
+  note: 'Individual unit data from Census Annual Survey of School System Finances'
+}
+
+Ref: census_asssf_unit_tables.NCESID > census_gis_unified_school_districts.GEOID
+Ref: census_asssf_unit_tables.CONUM > census_gis_counties.GEOID
+
 
 // **************************************************************************************
 // DBML Reference reminder
