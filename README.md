@@ -4,7 +4,11 @@ This is work in progress.  Here are the latest updates and current areas of focu
 - ✅ Geographic data shapefiles and metadata for counties, school districts, and their intersection
 - ✅ Census SAIPE data - county and school district levels
 - ✅ Census GIS code lookups - CBSAFP, CLASSFP, CSAFP, FUNCSTAT, LSAD, METDIVFP, MTFCC, STATEFP, STATEUSPS
-- 🔜 Census Annual Survey of School System Finances - Unit Tables
+- ✅ Census Annual Survey of School System Finances - Unit Tables
+- ✅ NCES CWIFT data
+- ✅ NYSED Student/Educator Staff data
+- ✅ Crosswalk for NYSED to CENSUS/NCES district data
+- 🔜 Further NYSED data
 
 ## Abstract
 Information about public financing for New York’s K-12 schools is spread across multiple data sources, including the U.S. Census Bureau, the U.S. Department of Education, and the New York State Education Department (NYSED).  This data model brings together these disparate data sources to get a more holistic view of public financing for K-12 schools in New York.
@@ -34,6 +38,25 @@ In the census_gis_counties table provided in this data set, the Statewide (GEOID
 - [Data tables](https://www.census.gov/programs-surveys/school-finances/data/tables.html)
 - [Documentation](https://www.census.gov/programs-surveys/school-finances/technical-documentation.html)
 
+## National Center for Education Statistics
+### Comparative Wage Index for Teachers
+The CWIFT is designed to identify geographic variation in wages for college-educated workers outside of the education field after controlling for job-related and demographic characteristics.
+
+An example adapted from the [documentation](https://nces.ed.gov/programs/edge/docs/EDGE_ACS_CWIFT_FILEDOC.pdf) (p.16):
+> To normalize dollar amounts and make them comparable, divide the dollar amounts by the district-level CWIFT, which are already normalized to the national average wage. 
+> 
+> The 2015 CWIFT for Los Angeles Unified School District 1.129. <br />
+> In 2013-14, Los Angeles Unified spent $6,137 total current expenditures on salary per pupil. <br />
+> When normalized, this equals $5,436 ($6,137 / 1.129).<br />
+> In the same year, Palm Beach County School District (in Florida) spent $5,433 total current expenditures on salary per pupil. <br />
+> Normalized to reflect the lower cost of hiring in this area, they are the equivalent of $5,677 ($5,433 / 0.957).
+> 
+> In other words, even though Los Angeles Unified School District spent more than Palm Beach County School District in nominal terms, once the two dollar figures were adjusted for the difference in purchasing power between the two districts, Palm Beach County School District effectively spent $241 more per pupil than did Los Angeles Unified School District.
+
+- [Landing Page](https://nces.ed.gov/programs/edge/economic/teacherwage)
+- [Data (EDGE_ACS_CWIFT2019.zip)](https://nces.ed.gov/programs/edge/data/EDGE_ACS_CWIFT2019.zip)
+- [Documentation](https://nces.ed.gov/programs/edge/docs/EDGE_ACS_CWIFT_FILEDOC.pdf)
+
 # Demographics
 ## US Census Bureau
 ### Small Area Income and Poverty Estimates
@@ -49,4 +72,12 @@ To download the ACS Data tables, I used data.census.gov.
 1. Geography: School Districts (Unified) > New York > All = https://data.census.gov/all?g=040XX00US36$9700000 
 2. Surveys: American Community Survey > 5-Year Estimates > Data Profiles = https://data.census.gov/all?g=040XX00US36$9700000&d=ACS+5-Year+Estimates+Data+Profiles
 
-## National Center for Education Statistics
+## NYSED
+NYSED data is available at https://data.nysed.gov/downloads.php but be warned that most files are in Access database format.
+
+### Student/Educator Database (STUDED2020.mdb)
+Data about students and educators are reported by total public school (aggregated data for all districts and charter schools), county (aggregated data for all districts and charter schools in the county), Needs-to-Resource-Capacity (N/RC) group, district, and public schools.
+
+#### NYSED Student/Educator Staff data
+I have removed CSO_NAME and PHONE fields from this data set because they are unnecessarily invasive to privacy and are not relevant to data analysis.<br />
+Use the included xwalk_nysed_lea table to match NYSED data with the CENSUS or NCES data.

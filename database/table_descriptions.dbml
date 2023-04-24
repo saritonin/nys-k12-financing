@@ -4,13 +4,18 @@ Project K12_finances {
     Combines data from:
     * U.S. Census Bureau (census.gov)
     * U.S. Department of Education (ed.gov)
+       * National Center for Education Statistics (NCES) (nces.ed.gov)
     * New York State Education Department (nysed.gov)
     
     ### Census data
     * GIS counties
     * GIS unified school districts
     * [calculated] GIS county/unified school district intersections
-    * SAIPE - Small Area Income and Poverty Estimates
+    * SAIPE - Small Area Income and Poverty Estimates  
+    * ASSSF - Annual Survey of School System Finances
+
+    ### NCES data
+    * CWIFT - Comparable Wage Index for Teachers
   '''
 }
 
@@ -269,12 +274,82 @@ Table census_asssf_unit_tables {
   DEPENDENT_ID varchar(5) [note: 'State FIPS code; characters 1-2 of CONUM']
   STATEFP char(2) [note: 'State FIPS code; characters 1-2 of CONUM']
   COUNTYFP char(3) [note: 'County FIPS code; characters 3-5 of CONUM']
-  LEAID char(5) [note: 'LEA code; characters 3-7 of NCESID']
   note: 'Individual unit data from Census Annual Survey of School System Finances'
 }
 
 Ref: census_asssf_unit_tables.NCESID > census_gis_unified_school_districts.GEOID
 Ref: census_asssf_unit_tables.CONUM > census_gis_counties.GEOID
+
+// **************************************************************************************
+//// 
+//// NCES
+//// https://nces.ed.gov
+////
+// **************************************************************************************
+
+// **************************************************************************************
+// Comparable Wage Index for Teachers - School Districts (EDGE_ACS_CWIFT_2019_LEA_1920.txt)
+// **************************************************************************************
+Table nces_cwift_lea {
+  LEAID    varchar(7) [pk, note: 'STATE FIPS || 5-digit LEA CODE']
+  NAME     varchar(100) [note: 'Local Education Agency Name']
+  ST_NAME  varchar(100) [note: 'State Name']
+  LEA_CWIFTEST      varchar(3) [note: 'CWIFT estimate for each LEA (divide dollars by this to get normalized amounts)']
+  LEA_CWIFTSE     varchar(5) [note: 'CWIFT standard error for each LEA']
+  note: 'NCES Comparable Wage Index for Teachers data (based on Census ACS data)'
+}
+
+Ref: nces_cwift_lea.LEAID > census_gis_unified_school_districts.GEOID
+
+// **************************************************************************************
+//// 
+//// NYSED
+//// https://data.nysed.gov/downloads.php
+////
+// **************************************************************************************
+
+// **************************************************************************************
+// NYSED/LEA crosswalk
+// NYSED uses BEDS codes which don't match to the rest of the data from NCES and Census
+// **************************************************************************************
+Table xwalk_nysed_lea {
+  DISTRICT_CD       varchar(8)   [pk, note: '8-digit code of school district']
+  DISTRICT_NAME     varchar(255) [note: 'Name of school district']
+  ENTITY_NAME       varchar(255) [note: 'Name of district, public school, or charter school']
+  LEA_GEOID         varchar(7)   [note: 'STATE FIPS || 5-digit LEA CODE']
+  LEA_NAME          varchar(100) [note: 'Name from census_gis_unified_school_districts']
+  NONMATCHED_NOTES  varchar(255) [note: 'Notes about why a district was not able to be matched to a LEA_GEOID']
+  note: 'Crosswalk table to match NYSED DISTRICT_CD with GEOID/NCESID'
+}
+
+Ref: xwalk_nysed_lea.LEA_GEOID > census_gis_unified_school_districts.GEOID
+
+// **************************************************************************************
+// Student and Educator database - Staff table
+// **************************************************************************************
+Table nysed_studed_staff {
+  ENTITY_CD     varchar(12) [pk, note: '12-digit BEDS code for district, public school, and charter school']
+  ENTITY_NAME   varchar(255) [note: 'Name of district, public school, or charter school']
+  YEAR          integer [pk, note: 'School Year (2018 for 2017-18, 2019 for 2018–19, and 2020 for 2019-20). ']
+  DISTRICT_CD   varchar(8) [note: '8-digit code of school district']
+  DISTRICT_NAME varchar(255) [note: 'Name of school district']
+  CSO_NAME      varchar(255) [note: 'School principal name']
+  STREET        varchar(255) [note: 'School mailing address']
+  CITY          varchar(255) [note: 'School city address']
+  PHONE         varchar(255) [note: 'School telephone number']
+  GRADE_RANGE   varchar(255) [note: 'Range of grades in the entity from low to high']
+  NUM_PRINC     double [note: 'Total number of principals']
+  NUM_TEACH     double [note: 'Total number of teachers']
+  NUM_COUNSELORS double [note: 'Total number of school counselors']
+  NUM_SOCIAL     double [note: 'Total number of social workers']
+  PER_ATTEND     double [note: 'Percent of teachers in attendance']
+  PER_TURN_FIVE_YRS double [note: 'Turnover rate of teachers with fewer than five years of experience']
+  PER_TURN_ALL double [note: 'Turnover rate of all teachers']
+  note: 'Staff data from NYSED Student and Educator database'
+}
+
+Ref: nysed_studed_staff.DISTRICT_CD > xwalk_nysed_lea.DISTRICT_CD
+
 
 
 // **************************************************************************************
