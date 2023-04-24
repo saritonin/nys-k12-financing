@@ -1,0 +1,205 @@
+Project K12_finances {
+  database_type: 'MySQL'
+  Note: '''
+    Combines data from:
+    * U.S. Census Bureau (census.gov)
+    * U.S. Department of Education (ed.gov)
+    * New York State Education Department (nysed.gov)
+    
+    ### Census data
+    * GIS counties
+    * GIS unified school districts
+    * [calculated] GIS county/unified school district intersections
+    * SAIPE - Small Area Income and Poverty Estimates
+  '''
+}
+
+// **************************************************************************************
+//// 
+//// Census GIS (TIGER) 
+//// https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.2020.html
+////
+// **************************************************************************************
+
+// **************************************************************************************
+// GIS counties
+// **************************************************************************************
+
+// tl_2020_36_county
+Table census_gis_counties {
+  STATEFP varchar(2) [note: '''
+    Current state FIPS code\
+    36 = NY
+    ''']
+  COUNTYFP varchar(3) [note: '''
+    Current county FIPS code
+    e.g. 001 = Albany County''']
+  COUNTYNS varchar(8) [note: 'ANSI feature code for the county or equivalent feature 
+e.g. 00974099 = Albany County']
+  GEOID  varchar(5) [pk, note: 'County identifier; a concatenation of Current state FIPS code and county FIPS code
+e.g. 36001 = Albany County']
+  NAME  varchar(100) [note: 'Current county name
+e.g. Albany']
+  NAMELSAD  varchar(100) [note: 'Current name and the translated legal/statistical area description for county
+e.g. Albany County']
+  LSAD varchar(2) [note: 'Current legal/statistical area description code for county
+e.g. 06 = County (suffix)']
+  CLASSFP varchar(2) [note: 'Current FIPS class code
+e.g. H1 = An active county or equivalent feature']
+  MTFCC varchar(5) [note: 'MAF/TIGER Feature Class Code
+G4020 = County or Equivalent Feature']
+  CSAFP varchar(3) [note: 'Current combined statistical area code 
+e.g. 104 = Albany-Schenectady, NY']
+  CBSAFP  varchar(5) [note: 'Current metropolitan statistical area/micropolitan statistical area code
+e.g. 10580 = Albany-Schenectady-Troy, NY']
+  METDIVFP varchar(5) [note: 'Current metropolitan division code
+NULL']
+  FUNCSTAT varchar(1) [note: 'Current functional status
+e.g. A = Active government providing primary general-purpose functions']
+  ALAND numeric(14) [note: 'Current land area in square meters
+e.g. 1354273421']
+  AWATER numeric(14) [note: 'Current water area in square meters
+e.g. 26971925']
+  INTPTLAT varchar(11) [note: 'Current latitude of the internal point
+e.g. +42.5882401']
+  INTPTLON varchar(12) [note: 'Current longitude of the internal point
+e.g. -073.9740095']
+
+  note: 'Geographic information about counties'
+}
+
+// **************************************************************************************
+// GIS unified school districts
+// **************************************************************************************
+
+// tl_2020_36_unsd
+Table census_gis_unified_school_districts {
+  STATEFP varchar(2) [note: 'Current state FIPS code
+36 = NY']
+  UNSDLEA varchar(5) [note: 'Current unified school district local education agency code
+e.g. 02460 = Albany City School District']
+  GEOID varchar(7) [pk, note: 'School district identifier; a concatenation of the current state FIPS code and the unified school district local education agency code
+e.g. 3602460 = Albany City School District']
+  NAME varchar(100) [note: 'Current unified school district name
+e.g. Albany City School District']
+  LSAD varchar(2) [note: 'Current legal/statistical area description code for unified school district
+e.g. 00']
+  LOGRADE varchar(2) [note: 'Current lowest grade covered by school district
+e.g. PK']
+  HIGRADE varchar(2) [note: 'Current highest grade covered by school district
+e.g. 12']
+  MTFCC varchar(5) [note: 'MAF/TIGER Feature Class Code
+G5420 = Unified School District']
+  SDTYP varchar(1) [note: 'Current school district type
+e.g. NULL']
+  FUNCSTAT varchar(1) [note: 'Current functional status
+e.g. E = Active government providing special-purpose functions']
+  ALAND numeric(14) [note: 'Current land area in square meters
+e.g. 55435357']
+  AWATER numeric(14) [note: 'Current water area in square meters
+e.g. 1377120']
+  INTPTLAT varchar(11) [note: 'Current latitude of the internal point
+e.g. +42.6657453']
+  INTPTLON varchar(12) [note: 'Current longitude of the internal point
+e.g. -073.7983532']
+
+  note: 'Geographic information about unified school districts'
+}
+
+// **************************************************************************************
+// [calculated] GIS county/unified school district intersections
+// **************************************************************************************
+
+// county/unsd intersection
+Table census_gis_county_unsd_intersect {
+  INTERSECT_ID varchar(13) [pk, note: 'Intersect identifier; a concatenation of COUNTY_GEOID-UNSD_GEOID
+e.g. 36001-3602460 = Intersection of Albany County and Albany City School District ']
+  COUNTY_GEOID varchar(5) [note: 'County identifier; a concatenation of Current state FIPS code and county FIPS code
+e.g. 36001 = Albany County']
+  UNSD_GEOID varchar(7) [note: 'School district identifier; a concatenation of the current state FIPS code and the unified school district local education agency code
+e.g. 3602460 = Albany City School District']
+  INTERSECT_AREA_IN_SQ_METERS double [note: 'Intersection area in square meters. (Geometry attribute via QGIS)
+e.g. 62956978.38 ']
+  INTERSECT_AREA_IN_SQ_MILES double [note: 'Intersection area in square miles. Calculated as INTERSECT_AREA_IN_SQ_METERS / 1000000 * 2.58998811
+e.g. 62956978.38 ']
+  INTERSECT_PERIMETER double [note: 'Intersection perimeter in meters (Geometry attribute via QGIS)
+e.g. 55139.73854 ']
+
+  note: 'Geographic information about how counties and unified school districts intersect'
+}
+
+Ref: census_gis_county_unsd_intersect.COUNTY_GEOID > census_gis_counties.GEOID
+Ref: census_gis_county_unsd_intersect.UNSD_GEOID > census_gis_unified_school_districts.GEOID
+
+// **************************************************************************************
+//// 
+//// Census Surveys and Programs
+//// https://www.census.gov/programs-surveys.html
+////
+// **************************************************************************************
+
+// **************************************************************************************
+// SAIPE
+// **************************************************************************************
+
+Table census_saipe_sd {
+  STATEFP varchar(2) [note: 'FIPS State Code (00 for US record)
+36 = NY']
+  DISTRICT_ID varchar(5) [note: 'District ID
+e.g. 02460 = Albany City School District']
+  CALC_GEOID varchar(7) [pk, note: 'Calculated field: STATEFP || DISTRICT_ID
+e.g. 3602460 = Albany City School District']
+  DISTRICT_NAME varchar(72) [note: 'District Name
+e.g. Albany City School District']
+  TOTAL_POP numeric(8) [note: 'Total Population']
+  POP_CHILD numeric(8) [note: 'Population of Relevant Children 5 to 17 years of Age']
+  EST_CHILD_POV numeric(8) [note: 'Estimated Number of Relevant Children 5 to 17 years old in Poverty Related to the Householder']
+  FILENAME_DATE varchar(21) [note: 'A tag indicating the file name and date of creation']
+  
+  note: 'Small Area Income and Poverty Estimates (SAIPE) Program data by school district'
+}
+
+Ref: census_saipe_sd.CALC_GEOID > census_gis_unified_school_districts.GEOID
+
+Table census_saipe_county {
+  STATEFP varchar(2) [note: 'FIPS State code (00 for US record)']
+  COUNTYFP varchar(3) [note: 'FIPS county code ( 0 for US or state level records)']
+  CALC_GEOID varchar(5) [pk, note: 'Calculated field: STATEFP || COUNTYFP']
+  EST_CNT_ALL_POV varchar(8) [note: 'Estimate of people of all ages in poverty']
+  EST_CNT_ALL_POV_90L varchar(8) [note: '90% confidence interval lower bound of estimate of people of all ages in poverty']
+  EST_CNT_ALL_POV_90U varchar(8) [note: '90% confidence interval upper bound of estimate of people of all ages in poverty']
+  EST_PCT_ALL_POV varchar(4) [note: 'Estimated percent of people of all ages in poverty']
+  EST_PCT_ALL_POV_90L varchar(4) [note: '90% confidence interval lower bound of estimate of percent of people of all ages in poverty']
+  EST_PCT_ALL_POV_90U varchar(4) [note: '90% confidence interval upper bound of estimate of percent of people of all ages in poverty']
+  EST_CNT_017_POV varchar(8) [note: 'Estimate of people age 0-17 in poverty']
+  EST_CNT_017_POV_90L varchar(8) [note: '90% confidence interval lower bound of estimate of people age 0-17 in poverty']
+  EST_CNT_017_POV_90U varchar(8) [note: '90% confidence interval upper bound of estimate of people age 0-17 in poverty']
+  EST_PCT_017_POV varchar(4) [note: 'Estimated percent of people age 0-17 in poverty']
+  EST_PCT_017_POV_90L varchar(4) [note: '90% confidence interval lower bound of estimate of percent of people age 0-17 in poverty']
+  EST_PCT_017_POV_90U varchar(4) [note: '90% confidence interval upper bound of estimate of percent of people age 0-17 in poverty']
+  EST_CNT_517_POV varchar(8) [note: 'Estimate of related children age 5-17 in families in poverty']
+  EST_CNT_517_POV_90L varchar(8) [note: '90% confidence interval lower bound of estimate of related children age 5-17 in families in poverty']
+  EST_CNT_517_POV_90U varchar(8) [note: '90% confidence interval upper bound of estimate of related children age 5-17 in families in poverty']
+  EST_PCT_517_POV varchar(4) [note: 'Estimated percent of related children age 5-17 in families in poverty']
+  EST_PCT_517_POV_90L varchar(4) [note: '90% confidence interval lower bound of estimate of percent of related children age 5-17 in families in poverty']
+  EST_PCT_517_POV_90U varchar(4) [note: '90% confidence interval upper bound of estimate of percent of related children age 5-17 in families in poverty']
+  EST_MED_INC varchar(6) [note: 'Estimate of median household income']
+  EST_MED_INC_90L varchar(6) [note: '90% confidence interval lower bound of estimate of median household income']
+  EST_MED_INC_90U varchar(6) [note: '90% confidence interval upper bound of estimate of median household income']
+  COUNTY_NAME varchar(45) [note: 'State or county name']
+  STATE_POSTAL varchar(2) [note: 'Two-letter Postal State abbreviation']
+  FILENAME_DATE varchar(22) [note: 'A tag indicating the file name and date of creation']  
+  note: 'Small Area Income and Poverty Estimates (SAIPE) Program data by county'
+}
+
+Ref: census_saipe_county.CALC_GEOID > census_gis_counties.GEOID
+
+// **************************************************************************************
+// DBML Reference reminder
+// **************************************************************************************
+// Creating references
+// You can also define relaionship separately
+// > many-to-one; < one-to-many; - one-to-one; <> many-to-many
+// Ref: U.country_code > countries.code  
+// Ref: ecommerce.merchants.country_code > countries.code
+// **************************************************************************************
