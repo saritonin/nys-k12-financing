@@ -542,3 +542,1277 @@ MTFCC,S1780,Parking Lot Road,Road/Path Features
 MTFCC,S1810,Winter Trail,Road/Path Features
 MTFCC,S1820,Bike Path or Trail,Road/Path Features
 MTFCC,S1830,Bridle Path,Road/Path Features
+STATEFP,01,Alabama,State
+STATEFP,02,Alaska,State
+STATEFP,04,Arizona,State
+STATEFP,05,Arkansas,State
+STATEFP,06,California,State
+STATEFP,08,Colorado,State
+STATEFP,09,Connecticut,State
+STATEFP,10,Delaware,State
+STATEFP,11,District of Columbia,District of Columbia
+STATEFP,12,Florida,State
+STATEFP,13,Georgia,State
+STATEFP,15,Hawaii,State
+STATEFP,16,Idaho,State
+STATEFP,17,Illinois,State
+STATEFP,18,Indiana,State
+STATEFP,19,Iowa,State
+STATEFP,20,Kansas,State
+STATEFP,21,Kentucky,State
+STATEFP,22,Louisiana,State
+STATEFP,23,Maine,State
+STATEFP,24,Maryland,State
+STATEFP,25,Massachusetts,State
+STATEFP,26,Michigan,State
+STATEFP,27,Minnesota,State
+STATEFP,28,Mississippi,State
+STATEFP,29,Missouri,State
+STATEFP,30,Montana,State
+STATEFP,31,Nebraska,State
+STATEFP,32,Nevada,State
+STATEFP,33,New Hampshire,State
+STATEFP,34,New Jersey,State
+STATEFP,35,New Mexico,State
+STATEFP,36,New York,State
+STATEFP,37,North Carolina,State
+STATEFP,38,North Dakota,State
+STATEFP,39,Ohio,State
+STATEFP,40,Oklahoma,State
+STATEFP,41,Oregon,State
+STATEFP,42,Pennsylvania,State
+STATEFP,44,Rhode Island,State
+STATEFP,45,South Carolina,State
+STATEFP,46,South Dakota,State
+STATEFP,47,Tennessee,State
+STATEFP,48,Texas,State
+STATEFP,49,Utah,State
+STATEFP,50,Vermont,State
+STATEFP,51,Virginia,State
+STATEFP,53,Washington,State
+STATEFP,54,West Virginia,State
+STATEFP,55,Wisconsin,State
+STATEFP,56,Wyoming,State
+STATEFP,60,American Samoa,Under U.S. sovereignty
+STATEFP,64,Federated States of Micronesia,Independent nation that operates under a Compact of Free Association with the United States
+STATEFP,66,Guam,Under U.S. sovereignty
+STATEFP,68,Marshall Islands,Independent nation that operates under a Compact of Free Association with the United States
+STATEFP,69,Commonwealth of the Northern Mariana Islands,Under U.S. sovereignty
+STATEFP,70,Palau,Independent nation that operates under a Compact of Free Association with the United States
+STATEFP,72,Puerto Rico,Under U.S. sovereignty
+STATEFP,74,U.S. Minor Outlying Islands,An aggregation of nine U.S. territories
+STATEFP,78,U.S. Virgin Islands,Under U.S. sovereignty
+STATEUSPS,AL,Alabama,State
+STATEUSPS,AK,Alaska,State
+STATEUSPS,AZ,Arizona,State
+STATEUSPS,AR,Arkansas,State
+STATEUSPS,CA,California,State
+STATEUSPS,CO,Colorado,State
+STATEUSPS,CT,Connecticut,State
+STATEUSPS,DE,Delaware,State
+STATEUSPS,DC,District of Columbia,District of Columbia
+STATEUSPS,FL,Florida,State
+STATEUSPS,GA,Georgia,State
+STATEUSPS,HI,Hawaii,State
+STATEUSPS,ID,Idaho,State
+STATEUSPS,IL,Illinois,State
+STATEUSPS,IN,Indiana,State
+STATEUSPS,IA,Iowa,State
+STATEUSPS,KS,Kansas,State
+STATEUSPS,KY,Kentucky,State
+STATEUSPS,LA,Louisiana,State
+STATEUSPS,ME,Maine,State
+STATEUSPS,MD,Maryland,State
+STATEUSPS,MA,Massachusetts,State
+STATEUSPS,MI,Michigan,State
+STATEUSPS,MN,Minnesota,State
+STATEUSPS,MS,Mississippi,State
+STATEUSPS,MO,Missouri,State
+STATEUSPS,MT,Montana,State
+STATEUSPS,NE,Nebraska,State
+STATEUSPS,NV,Nevada,State
+STATEUSPS,NH,New Hampshire,State
+STATEUSPS,NJ,New Jersey,State
+STATEUSPS,NM,New Mexico,State
+STATEUSPS,NY,New York,State
+STATEUSPS,NC,North Carolina,State
+STATEUSPS,ND,North Dakota,State
+STATEUSPS,OH,Ohio,State
+STATEUSPS,OK,Oklahoma,State
+STATEUSPS,OR,Oregon,State
+STATEUSPS,PA,Pennsylvania,State
+STATEUSPS,RI,Rhode Island,State
+STATEUSPS,SC,South Carolina,State
+STATEUSPS,SD,South Dakota,State
+STATEUSPS,TN,Tennessee,State
+STATEUSPS,TX,Texas,State
+STATEUSPS,UT,Utah,State
+STATEUSPS,VT,Vermont,State
+STATEUSPS,VA,Virginia,State
+STATEUSPS,WA,Washington,State
+STATEUSPS,WV,West Virginia,State
+STATEUSPS,WI,Wisconsin,State
+STATEUSPS,WY,Wyoming,State
+STATEUSPS,AS,American Samoa,Under U.S. sovereignty
+STATEUSPS,FM,Federated States of Micronesia,Independent nation that operates under a Compact of Free Association with the United States
+STATEUSPS,GU,Guam,Under U.S. sovereignty
+STATEUSPS,MH,Marshall Islands,Independent nation that operates under a Compact of Free Association with the United States
+STATEUSPS,MP,Commonwealth of the Northern Mariana Islands,Under U.S. sovereignty
+STATEUSPS,PW,Palau,Independent nation that operates under a Compact of Free Association with the United States
+STATEUSPS,PR,Puerto Rico,Under U.S. sovereignty
+STATEUSPS,UM,U.S. Minor Outlying Islands,An aggregation of nine U.S. territories
+STATEUSPS,VI,U.S. Virgin Islands,Under U.S. sovereignty
+STATEFP,81,Baker Island,U.S. Minor Outlying Island
+STATEFP,84,Howland Island,U.S. Minor Outlying Island
+STATEFP,86,Jarvis Island,U.S. Minor Outlying Island
+STATEFP,67,Johnston Atoll,U.S. Minor Outlying Island
+STATEFP,89,Kingman Reef,U.S. Minor Outlying Island
+STATEFP,71,Midway Islands,U.S. Minor Outlying Island
+STATEFP,76,Navassa Island,U.S. Minor Outlying Island
+STATEFP,95,Palmyra Atoll,U.S. Minor Outlying Island
+STATEFP,79,Wake Island,U.S. Minor Outlying Island
+CBSAFP,10100,"Aberdeen, SD",Core based statistical area
+CBSAFP,10140,"Aberdeen, WA",Core based statistical area
+CBSAFP,10180,"Abilene, TX",Core based statistical area
+CBSAFP,10220,"Ada, OK",Core based statistical area
+CBSAFP,10300,"Adrian, MI",Core based statistical area
+CBSAFP,10380,"Aguadilla-Isabela, PR",Core based statistical area
+CBSAFP,10420,"Akron, OH",Core based statistical area
+CBSAFP,10460,"Alamogordo, NM",Core based statistical area
+CBSAFP,10500,"Albany, GA",Core based statistical area
+CBSAFP,10540,"Albany-Lebanon, OR",Core based statistical area
+CBSAFP,10580,"Albany-Schenectady-Troy, NY",Core based statistical area
+CBSAFP,10620,"Albemarle, NC",Core based statistical area
+CBSAFP,10660,"Albert Lea, MN",Core based statistical area
+CBSAFP,10700,"Albertville, AL",Core based statistical area
+CBSAFP,10740,"Albuquerque, NM",Core based statistical area
+CBSAFP,10760,"Alexander City, AL",Core based statistical area
+CBSAFP,10780,"Alexandria, LA",Core based statistical area
+CBSAFP,10820,"Alexandria, MN",Core based statistical area
+CBSAFP,10860,"Alice, TX",Core based statistical area
+CBSAFP,10900,"Allentown-Bethlehem-Easton, PA-NJ",Core based statistical area
+CBSAFP,10940,"Alma, MI",Core based statistical area
+CBSAFP,10980,"Alpena, MI",Core based statistical area
+CBSAFP,11020,"Altoona, PA",Core based statistical area
+CBSAFP,11060,"Altus, OK",Core based statistical area
+CBSAFP,11100,"Amarillo, TX",Core based statistical area
+CBSAFP,11140,"Americus, GA",Core based statistical area
+CBSAFP,11180,"Ames, IA",Core based statistical area
+CBSAFP,11220,"Amsterdam, NY",Core based statistical area
+CBSAFP,11260,"Anchorage, AK",Core based statistical area
+CBSAFP,11380,"Andrews, TX",Core based statistical area
+CBSAFP,11420,"Angola, IN",Core based statistical area
+CBSAFP,11460,"Ann Arbor, MI",Core based statistical area
+CBSAFP,11500,"Anniston-Oxford, AL",Core based statistical area
+CBSAFP,11540,"Appleton, WI",Core based statistical area
+CBSAFP,11580,"Arcadia, FL",Core based statistical area
+CBSAFP,11620,"Ardmore, OK",Core based statistical area
+CBSAFP,11640,"Arecibo, PR",Core based statistical area
+CBSAFP,11660,"Arkadelphia, AR",Core based statistical area
+CBSAFP,11700,"Asheville, NC",Core based statistical area
+CBSAFP,11740,"Ashland, OH",Core based statistical area
+CBSAFP,11780,"Ashtabula, OH",Core based statistical area
+CBSAFP,11820,"Astoria, OR",Core based statistical area
+CBSAFP,11860,"Atchison, KS",Core based statistical area
+CBSAFP,11900,"Athens, OH",Core based statistical area
+CBSAFP,11940,"Athens, TN",Core based statistical area
+CBSAFP,11980,"Athens, TX",Core based statistical area
+CBSAFP,12020,"Athens-Clarke County, GA",Core based statistical area
+CBSAFP,12060,"Atlanta-Sandy Springs-Alpharetta, GA",Core based statistical area
+CBSAFP,12100,"Atlantic City-Hammonton, NJ",Core based statistical area
+CBSAFP,12120,"Atmore, AL",Core based statistical area
+CBSAFP,12140,"Auburn, IN",Core based statistical area
+CBSAFP,12180,"Auburn, NY",Core based statistical area
+CBSAFP,12220,"Auburn-Opelika, AL",Core based statistical area
+CBSAFP,12260,"Augusta-Richmond County, GA-SC",Core based statistical area
+CBSAFP,12300,"Augusta-Waterville, ME",Core based statistical area
+CBSAFP,12380,"Austin, MN",Core based statistical area
+CBSAFP,12420,"Austin-Round Rock-Georgetown, TX",Core based statistical area
+CBSAFP,12460,"Bainbridge, GA",Core based statistical area
+CBSAFP,12540,"Bakersfield, CA",Core based statistical area
+CBSAFP,12580,"Baltimore-Columbia-Towson, MD",Core based statistical area
+CBSAFP,12620,"Bangor, ME",Core based statistical area
+CBSAFP,12660,"Baraboo, WI",Core based statistical area
+CBSAFP,12680,"Bardstown, KY",Core based statistical area
+CBSAFP,12700,"Barnstable Town, MA",Core based statistical area
+CBSAFP,12740,"Barre, VT",Core based statistical area
+CBSAFP,12780,"Bartlesville, OK",Core based statistical area
+CBSAFP,12860,"Batavia, NY",Core based statistical area
+CBSAFP,12900,"Batesville, AR",Core based statistical area
+CBSAFP,12940,"Baton Rouge, LA",Core based statistical area
+CBSAFP,12980,"Battle Creek, MI",Core based statistical area
+CBSAFP,13020,"Bay City, MI",Core based statistical area
+CBSAFP,13060,"Bay City, TX",Core based statistical area
+CBSAFP,13100,"Beatrice, NE",Core based statistical area
+CBSAFP,13140,"Beaumont-Port Arthur, TX",Core based statistical area
+CBSAFP,13180,"Beaver Dam, WI",Core based statistical area
+CBSAFP,13220,"Beckley, WV",Core based statistical area
+CBSAFP,13260,"Bedford, IN",Core based statistical area
+CBSAFP,13300,"Beeville, TX",Core based statistical area
+CBSAFP,13340,"Bellefontaine, OH",Core based statistical area
+CBSAFP,13380,"Bellingham, WA",Core based statistical area
+CBSAFP,13420,"Bemidji, MN",Core based statistical area
+CBSAFP,13460,"Bend, OR",Core based statistical area
+CBSAFP,13500,"Bennettsville, SC",Core based statistical area
+CBSAFP,13540,"Bennington, VT",Core based statistical area
+CBSAFP,13620,"Berlin, NH",Core based statistical area
+CBSAFP,13660,"Big Rapids, MI",Core based statistical area
+CBSAFP,13700,"Big Spring, TX",Core based statistical area
+CBSAFP,13720,"Big Stone Gap, VA",Core based statistical area
+CBSAFP,13740,"Billings, MT",Core based statistical area
+CBSAFP,13780,"Binghamton, NY",Core based statistical area
+CBSAFP,13820,"Birmingham-Hoover, AL",Core based statistical area
+CBSAFP,13900,"Bismarck, ND",Core based statistical area
+CBSAFP,13940,"Blackfoot, ID",Core based statistical area
+CBSAFP,13980,"Blacksburg-Christiansburg, VA",Core based statistical area
+CBSAFP,14010,"Bloomington, IL",Core based statistical area
+CBSAFP,14020,"Bloomington, IN",Core based statistical area
+CBSAFP,14100,"Bloomsburg-Berwick, PA",Core based statistical area
+CBSAFP,14140,"Bluefield, WV-VA",Core based statistical area
+CBSAFP,14160,"Bluffton, IN",Core based statistical area
+CBSAFP,14180,"Blytheville, AR",Core based statistical area
+CBSAFP,14220,"Bogalusa, LA",Core based statistical area
+CBSAFP,14260,"Boise City, ID",Core based statistical area
+CBSAFP,14300,"Bonham, TX",Core based statistical area
+CBSAFP,14380,"Boone, NC",Core based statistical area
+CBSAFP,14420,"Borger, TX",Core based statistical area
+CBSAFP,14460,"Boston-Cambridge-Newton, MA-NH",Core based statistical area
+CBSAFP,14500,"Boulder, CO",Core based statistical area
+CBSAFP,14540,"Bowling Green, KY",Core based statistical area
+CBSAFP,14580,"Bozeman, MT",Core based statistical area
+CBSAFP,14620,"Bradford, PA",Core based statistical area
+CBSAFP,14660,"Brainerd, MN",Core based statistical area
+CBSAFP,14700,"Branson, MO",Core based statistical area
+CBSAFP,14720,"Breckenridge, CO",Core based statistical area
+CBSAFP,14740,"Bremerton-Silverdale-Port Orchard, WA",Core based statistical area
+CBSAFP,14780,"Brenham, TX",Core based statistical area
+CBSAFP,14820,"Brevard, NC",Core based statistical area
+CBSAFP,14860,"Bridgeport-Stamford-Norwalk, CT",Core based statistical area
+CBSAFP,15020,"Brookhaven, MS",Core based statistical area
+CBSAFP,15060,"Brookings, OR",Core based statistical area
+CBSAFP,15100,"Brookings, SD",Core based statistical area
+CBSAFP,15140,"Brownsville, TN",Core based statistical area
+CBSAFP,15180,"Brownsville-Harlingen, TX",Core based statistical area
+CBSAFP,15220,"Brownwood, TX",Core based statistical area
+CBSAFP,15260,"Brunswick, GA",Core based statistical area
+CBSAFP,15340,"Bucyrus-Galion, OH",Core based statistical area
+CBSAFP,15380,"Buffalo-Cheektowaga, NY",Core based statistical area
+CBSAFP,15420,"Burley, ID",Core based statistical area
+CBSAFP,15460,"Burlington, IA-IL",Core based statistical area
+CBSAFP,15500,"Burlington, NC",Core based statistical area
+CBSAFP,15540,"Burlington-South Burlington, VT",Core based statistical area
+CBSAFP,15580,"Butte-Silver Bow, MT",Core based statistical area
+CBSAFP,15620,"Cadillac, MI",Core based statistical area
+CBSAFP,15660,"Calhoun, GA",Core based statistical area
+CBSAFP,15680,"California-Lexington Park, MD",Core based statistical area
+CBSAFP,15700,"Cambridge, MD",Core based statistical area
+CBSAFP,15740,"Cambridge, OH",Core based statistical area
+CBSAFP,15780,"Camden, AR",Core based statistical area
+CBSAFP,15820,"Campbellsville, KY",Core based statistical area
+CBSAFP,15860,"Cañon City, CO",Core based statistical area
+CBSAFP,15940,"Canton-Massillon, OH",Core based statistical area
+CBSAFP,15980,"Cape Coral-Fort Myers, FL",Core based statistical area
+CBSAFP,16020,"Cape Girardeau, MO-IL",Core based statistical area
+CBSAFP,16060,"Carbondale-Marion, IL",Core based statistical area
+CBSAFP,16100,"Carlsbad-Artesia, NM",Core based statistical area
+CBSAFP,16140,"Carroll, IA",Core based statistical area
+CBSAFP,16180,"Carson City, NV",Core based statistical area
+CBSAFP,16220,"Casper, WY",Core based statistical area
+CBSAFP,16260,"Cedar City, UT",Core based statistical area
+CBSAFP,16300,"Cedar Rapids, IA",Core based statistical area
+CBSAFP,16340,"Cedartown, GA",Core based statistical area
+CBSAFP,16380,"Celina, OH",Core based statistical area
+CBSAFP,16420,"Central City, KY",Core based statistical area
+CBSAFP,16460,"Centralia, IL",Core based statistical area
+CBSAFP,16500,"Centralia, WA",Core based statistical area
+CBSAFP,16540,"Chambersburg-Waynesboro, PA",Core based statistical area
+CBSAFP,16580,"Champaign-Urbana, IL",Core based statistical area
+CBSAFP,16620,"Charleston, WV",Core based statistical area
+CBSAFP,16660,"Charleston-Mattoon, IL",Core based statistical area
+CBSAFP,16700,"Charleston-North Charleston, SC",Core based statistical area
+CBSAFP,16740,"Charlotte-Concord-Gastonia, NC-SC",Core based statistical area
+CBSAFP,16820,"Charlottesville, VA",Core based statistical area
+CBSAFP,16860,"Chattanooga, TN-GA",Core based statistical area
+CBSAFP,16940,"Cheyenne, WY",Core based statistical area
+CBSAFP,16980,"Chicago-Naperville-Elgin, IL-IN-WI",Core based statistical area
+CBSAFP,17020,"Chico, CA",Core based statistical area
+CBSAFP,17060,"Chillicothe, OH",Core based statistical area
+CBSAFP,17140,"Cincinnati, OH-KY-IN",Core based statistical area
+CBSAFP,17220,"Clarksburg, WV",Core based statistical area
+CBSAFP,17260,"Clarksdale, MS",Core based statistical area
+CBSAFP,17300,"Clarksville, TN-KY",Core based statistical area
+CBSAFP,17340,"Clearlake, CA",Core based statistical area
+CBSAFP,17380,"Cleveland, MS",Core based statistical area
+CBSAFP,17420,"Cleveland, TN",Core based statistical area
+CBSAFP,17460,"Cleveland-Elyria, OH",Core based statistical area
+CBSAFP,17500,"Clewiston, FL",Core based statistical area
+CBSAFP,17540,"Clinton, IA",Core based statistical area
+CBSAFP,17580,"Clovis, NM",Core based statistical area
+CBSAFP,17620,"Coamo, PR",Core based statistical area
+CBSAFP,17640,"Coco, PR",Core based statistical area
+CBSAFP,17660,"Coeur d'Alene, ID",Core based statistical area
+CBSAFP,17700,"Coffeyville, KS",Core based statistical area
+CBSAFP,17740,"Coldwater, MI",Core based statistical area
+CBSAFP,17780,"College Station-Bryan, TX",Core based statistical area
+CBSAFP,17820,"Colorado Springs, CO",Core based statistical area
+CBSAFP,17860,"Columbia, MO",Core based statistical area
+CBSAFP,17900,"Columbia, SC",Core based statistical area
+CBSAFP,17980,"Columbus, GA-AL",Core based statistical area
+CBSAFP,18020,"Columbus, IN",Core based statistical area
+CBSAFP,18060,"Columbus, MS",Core based statistical area
+CBSAFP,18100,"Columbus, NE",Core based statistical area
+CBSAFP,18140,"Columbus, OH",Core based statistical area
+CBSAFP,18180,"Concord, NH",Core based statistical area
+CBSAFP,18220,"Connersville, IN",Core based statistical area
+CBSAFP,18260,"Cookeville, TN",Core based statistical area
+CBSAFP,18300,"Coos Bay, OR",Core based statistical area
+CBSAFP,18380,"Cordele, GA",Core based statistical area
+CBSAFP,18420,"Corinth, MS",Core based statistical area
+CBSAFP,18460,"Cornelia, GA",Core based statistical area
+CBSAFP,18500,"Corning, NY",Core based statistical area
+CBSAFP,18580,"Corpus Christi, TX",Core based statistical area
+CBSAFP,18620,"Corsicana, TX",Core based statistical area
+CBSAFP,18660,"Cortland, NY",Core based statistical area
+CBSAFP,18700,"Corvallis, OR",Core based statistical area
+CBSAFP,18740,"Coshocton, OH",Core based statistical area
+CBSAFP,18780,"Craig, CO",Core based statistical area
+CBSAFP,18820,"Crawfordsville, IN",Core based statistical area
+CBSAFP,18860,"Crescent City, CA",Core based statistical area
+CBSAFP,18880,"Crestview-Fort Walton Beach-Destin, FL",Core based statistical area
+CBSAFP,18900,"Crossville, TN",Core based statistical area
+CBSAFP,18980,"Cullman, AL",Core based statistical area
+CBSAFP,19000,"Cullowhee, NC",Core based statistical area
+CBSAFP,19060,"Cumberland, MD-WV",Core based statistical area
+CBSAFP,19100,"Dallas-Fort Worth-Arlington, TX",Core based statistical area
+CBSAFP,19140,"Dalton, GA",Core based statistical area
+CBSAFP,19180,"Danville, IL",Core based statistical area
+CBSAFP,19220,"Danville, KY",Core based statistical area
+CBSAFP,19260,"Danville, VA",Core based statistical area
+CBSAFP,19300,"Daphne-Fairhope-Foley, AL",Core based statistical area
+CBSAFP,19340,"Davenport-Moline-Rock Island, IA-IL",Core based statistical area
+CBSAFP,19420,"Dayton, TN",Core based statistical area
+CBSAFP,19430,"Dayton-Kettering, OH",Core based statistical area
+CBSAFP,19460,"Decatur, AL",Core based statistical area
+CBSAFP,19500,"Decatur, IL",Core based statistical area
+CBSAFP,19540,"Decatur, IN",Core based statistical area
+CBSAFP,19580,"Defiance, OH",Core based statistical area
+CBSAFP,19620,"Del Rio, TX",Core based statistical area
+CBSAFP,19660,"Deltona-Daytona Beach-Ormond Beach, FL",Core based statistical area
+CBSAFP,19700,"Deming, NM",Core based statistical area
+CBSAFP,19740,"Denver-Aurora-Lakewood, CO",Core based statistical area
+CBSAFP,19760,"DeRidder, LA",Core based statistical area
+CBSAFP,19780,"Des Moines-West Des Moines, IA",Core based statistical area
+CBSAFP,19820,"Detroit-Warren-Dearborn, MI",Core based statistical area
+CBSAFP,19860,"Dickinson, ND",Core based statistical area
+CBSAFP,19940,"Dixon, IL",Core based statistical area
+CBSAFP,19980,"Dodge City, KS",Core based statistical area
+CBSAFP,20020,"Dothan, AL",Core based statistical area
+CBSAFP,20060,"Douglas, GA",Core based statistical area
+CBSAFP,20100,"Dover, DE",Core based statistical area
+CBSAFP,20140,"Dublin, GA",Core based statistical area
+CBSAFP,20180,"DuBois, PA",Core based statistical area
+CBSAFP,20220,"Dubuque, IA",Core based statistical area
+CBSAFP,20260,"Duluth, MN-WI",Core based statistical area
+CBSAFP,20300,"Dumas, TX",Core based statistical area
+CBSAFP,20340,"Duncan, OK",Core based statistical area
+CBSAFP,20420,"Durango, CO",Core based statistical area
+CBSAFP,20460,"Durant, OK",Core based statistical area
+CBSAFP,20500,"Durham-Chapel Hill, NC",Core based statistical area
+CBSAFP,20540,"Dyersburg, TN",Core based statistical area
+CBSAFP,20580,"Eagle Pass, TX",Core based statistical area
+CBSAFP,20660,"Easton, MD",Core based statistical area
+CBSAFP,20700,"East Stroudsburg, PA",Core based statistical area
+CBSAFP,20740,"Eau Claire, WI",Core based statistical area
+CBSAFP,20780,"Edwards, CO",Core based statistical area
+CBSAFP,20820,"Effingham, IL",Core based statistical area
+CBSAFP,20900,"El Campo, TX",Core based statistical area
+CBSAFP,20940,"El Centro, CA",Core based statistical area
+CBSAFP,20980,"El Dorado, AR",Core based statistical area
+CBSAFP,21020,"Elizabeth City, NC",Core based statistical area
+CBSAFP,21060,"Elizabethtown-Fort Knox, KY",Core based statistical area
+CBSAFP,21120,"Elk City, OK",Core based statistical area
+CBSAFP,21140,"Elkhart-Goshen, IN",Core based statistical area
+CBSAFP,21180,"Elkins, WV",Core based statistical area
+CBSAFP,21220,"Elko, NV",Core based statistical area
+CBSAFP,21260,"Ellensburg, WA",Core based statistical area
+CBSAFP,21300,"Elmira, NY",Core based statistical area
+CBSAFP,21340,"El Paso, TX",Core based statistical area
+CBSAFP,21380,"Emporia, KS",Core based statistical area
+CBSAFP,21420,"Enid, OK",Core based statistical area
+CBSAFP,21460,"Enterprise, AL",Core based statistical area
+CBSAFP,21500,"Erie, PA",Core based statistical area
+CBSAFP,21540,"Escanaba, MI",Core based statistical area
+CBSAFP,21580,"Española, NM",Core based statistical area
+CBSAFP,21640,"Eufaula, AL-GA",Core based statistical area
+CBSAFP,21660,"Eugene-Springfield, OR",Core based statistical area
+CBSAFP,21700,"Eureka-Arcata, CA",Core based statistical area
+CBSAFP,21740,"Evanston, WY",Core based statistical area
+CBSAFP,21780,"Evansville, IN-KY",Core based statistical area
+CBSAFP,21820,"Fairbanks, AK",Core based statistical area
+CBSAFP,21840,"Fairfield, IA",Core based statistical area
+CBSAFP,21860,"Fairmont, MN",Core based statistical area
+CBSAFP,21900,"Fairmont, WV",Core based statistical area
+CBSAFP,21980,"Fallon, NV",Core based statistical area
+CBSAFP,22020,"Fargo, ND-MN",Core based statistical area
+CBSAFP,22060,"Faribault-Northfield, MN",Core based statistical area
+CBSAFP,22100,"Farmington, MO",Core based statistical area
+CBSAFP,22140,"Farmington, NM",Core based statistical area
+CBSAFP,22180,"Fayetteville, NC",Core based statistical area
+CBSAFP,22220,"Fayetteville-Springdale-Rogers, AR",Core based statistical area
+CBSAFP,22260,"Fergus Falls, MN",Core based statistical area
+CBSAFP,22280,"Fernley, NV",Core based statistical area
+CBSAFP,22300,"Findlay, OH",Core based statistical area
+CBSAFP,22340,"Fitzgerald, GA",Core based statistical area
+CBSAFP,22380,"Flagstaff, AZ",Core based statistical area
+CBSAFP,22420,"Flint, MI",Core based statistical area
+CBSAFP,22500,"Florence, SC",Core based statistical area
+CBSAFP,22520,"Florence-Muscle Shoals, AL",Core based statistical area
+CBSAFP,22540,"Fond du Lac, WI",Core based statistical area
+CBSAFP,22580,"Forest City, NC",Core based statistical area
+CBSAFP,22620,"Forrest City, AR",Core based statistical area
+CBSAFP,22660,"Fort Collins, CO",Core based statistical area
+CBSAFP,22700,"Fort Dodge, IA",Core based statistical area
+CBSAFP,22780,"Fort Leonard Wood, MO",Core based statistical area
+CBSAFP,22800,"Fort Madison-Keokuk, IA-IL-MO",Core based statistical area
+CBSAFP,22820,"Fort Morgan, CO",Core based statistical area
+CBSAFP,22840,"Fort Payne, AL",Core based statistical area
+CBSAFP,22860,"Fort Polk South, LA",Core based statistical area
+CBSAFP,22900,"Fort Smith, AR-OK",Core based statistical area
+CBSAFP,23060,"Fort Wayne, IN",Core based statistical area
+CBSAFP,23140,"Frankfort, IN",Core based statistical area
+CBSAFP,23180,"Frankfort, KY",Core based statistical area
+CBSAFP,23240,"Fredericksburg, TX",Core based statistical area
+CBSAFP,23300,"Freeport, IL",Core based statistical area
+CBSAFP,23340,"Fremont, NE",Core based statistical area
+CBSAFP,23380,"Fremont, OH",Core based statistical area
+CBSAFP,23420,"Fresno, CA",Core based statistical area
+CBSAFP,23460,"Gadsden, AL",Core based statistical area
+CBSAFP,23500,"Gaffney, SC",Core based statistical area
+CBSAFP,23540,"Gainesville, FL",Core based statistical area
+CBSAFP,23580,"Gainesville, GA",Core based statistical area
+CBSAFP,23620,"Gainesville, TX",Core based statistical area
+CBSAFP,23660,"Galesburg, IL",Core based statistical area
+CBSAFP,23700,"Gallup, NM",Core based statistical area
+CBSAFP,23780,"Garden City, KS",Core based statistical area
+CBSAFP,23820,"Gardnerville Ranchos, NV",Core based statistical area
+CBSAFP,23860,"Georgetown, SC",Core based statistical area
+CBSAFP,23900,"Gettysburg, PA",Core based statistical area
+CBSAFP,23940,"Gillette, WY",Core based statistical area
+CBSAFP,23980,"Glasgow, KY",Core based statistical area
+CBSAFP,24020,"Glens Falls, NY",Core based statistical area
+CBSAFP,24060,"Glenwood Springs, CO",Core based statistical area
+CBSAFP,24100,"Gloversville, NY",Core based statistical area
+CBSAFP,24140,"Goldsboro, NC",Core based statistical area
+CBSAFP,24180,"Granbury, TX",Core based statistical area
+CBSAFP,24220,"Grand Forks, ND-MN",Core based statistical area
+CBSAFP,24260,"Grand Island, NE",Core based statistical area
+CBSAFP,24300,"Grand Junction, CO",Core based statistical area
+CBSAFP,24330,"Grand Rapids, MN",Core based statistical area
+CBSAFP,24340,"Grand Rapids-Kentwood, MI",Core based statistical area
+CBSAFP,24380,"Grants, NM",Core based statistical area
+CBSAFP,24420,"Grants Pass, OR",Core based statistical area
+CBSAFP,24460,"Great Bend, KS",Core based statistical area
+CBSAFP,24500,"Great Falls, MT",Core based statistical area
+CBSAFP,24540,"Greeley, CO",Core based statistical area
+CBSAFP,24580,"Green Bay, WI",Core based statistical area
+CBSAFP,24620,"Greeneville, TN",Core based statistical area
+CBSAFP,24660,"Greensboro-High Point, NC",Core based statistical area
+CBSAFP,24700,"Greensburg, IN",Core based statistical area
+CBSAFP,24740,"Greenville, MS",Core based statistical area
+CBSAFP,24780,"Greenville, NC",Core based statistical area
+CBSAFP,24820,"Greenville, OH",Core based statistical area
+CBSAFP,24860,"Greenville-Anderson, SC",Core based statistical area
+CBSAFP,24900,"Greenwood, MS",Core based statistical area
+CBSAFP,24940,"Greenwood, SC",Core based statistical area
+CBSAFP,24980,"Grenada, MS",Core based statistical area
+CBSAFP,25020,"Guayama, PR",Core based statistical area
+CBSAFP,25060,"Gulfport-Biloxi, MS",Core based statistical area
+CBSAFP,25100,"Guymon, OK",Core based statistical area
+CBSAFP,25180,"Hagerstown-Martinsburg, MD-WV",Core based statistical area
+CBSAFP,25200,"Hailey, ID",Core based statistical area
+CBSAFP,25220,"Hammond, LA",Core based statistical area
+CBSAFP,25260,"Hanford-Corcoran, CA",Core based statistical area
+CBSAFP,25300,"Hannibal, MO",Core based statistical area
+CBSAFP,25420,"Harrisburg-Carlisle, PA",Core based statistical area
+CBSAFP,25460,"Harrison, AR",Core based statistical area
+CBSAFP,25500,"Harrisonburg, VA",Core based statistical area
+CBSAFP,25540,"Hartford-East Hartford-Middletown, CT",Core based statistical area
+CBSAFP,25580,"Hastings, NE",Core based statistical area
+CBSAFP,25620,"Hattiesburg, MS",Core based statistical area
+CBSAFP,25700,"Hays, KS",Core based statistical area
+CBSAFP,25720,"Heber, UT",Core based statistical area
+CBSAFP,25740,"Helena, MT",Core based statistical area
+CBSAFP,25760,"Helena-West Helena, AR",Core based statistical area
+CBSAFP,25780,"Henderson, NC",Core based statistical area
+CBSAFP,25820,"Hereford, TX",Core based statistical area
+CBSAFP,25840,"Hermiston-Pendleton, OR",Core based statistical area
+CBSAFP,25860,"Hickory-Lenoir-Morganton, NC",Core based statistical area
+CBSAFP,25880,"Hillsdale, MI",Core based statistical area
+CBSAFP,25900,"Hilo, HI",Core based statistical area
+CBSAFP,25940,"Hilton Head Island-Bluffton, SC",Core based statistical area
+CBSAFP,25980,"Hinesville, GA",Core based statistical area
+CBSAFP,26020,"Hobbs, NM",Core based statistical area
+CBSAFP,26090,"Holland, MI",Core based statistical area
+CBSAFP,26140,"Homosassa Springs, FL",Core based statistical area
+CBSAFP,26220,"Hood River, OR",Core based statistical area
+CBSAFP,26260,"Hope, AR",Core based statistical area
+CBSAFP,26300,"Hot Springs, AR",Core based statistical area
+CBSAFP,26340,"Houghton, MI",Core based statistical area
+CBSAFP,26380,"Houma-Thibodaux, LA",Core based statistical area
+CBSAFP,26420,"Houston-The Woodlands-Sugar Land, TX",Core based statistical area
+CBSAFP,26460,"Hudson, NY",Core based statistical area
+CBSAFP,26500,"Huntingdon, PA",Core based statistical area
+CBSAFP,26540,"Huntington, IN",Core based statistical area
+CBSAFP,26580,"Huntington-Ashland, WV-KY-OH",Core based statistical area
+CBSAFP,26620,"Huntsville, AL",Core based statistical area
+CBSAFP,26660,"Huntsville, TX",Core based statistical area
+CBSAFP,26700,"Huron, SD",Core based statistical area
+CBSAFP,26740,"Hutchinson, KS",Core based statistical area
+CBSAFP,26780,"Hutchinson, MN",Core based statistical area
+CBSAFP,26820,"Idaho Falls, ID",Core based statistical area
+CBSAFP,26860,"Indiana, PA",Core based statistical area
+CBSAFP,26900,"Indianapolis-Carmel-Anderson, IN",Core based statistical area
+CBSAFP,26940,"Indianola, MS",Core based statistical area
+CBSAFP,26980,"Iowa City, IA",Core based statistical area
+CBSAFP,27020,"Iron Mountain, MI-WI",Core based statistical area
+CBSAFP,27060,"Ithaca, NY",Core based statistical area
+CBSAFP,27100,"Jackson, MI",Core based statistical area
+CBSAFP,27140,"Jackson, MS",Core based statistical area
+CBSAFP,27160,"Jackson, OH",Core based statistical area
+CBSAFP,27180,"Jackson, TN",Core based statistical area
+CBSAFP,27220,"Jackson, WY-ID",Core based statistical area
+CBSAFP,27260,"Jacksonville, FL",Core based statistical area
+CBSAFP,27300,"Jacksonville, IL",Core based statistical area
+CBSAFP,27340,"Jacksonville, NC",Core based statistical area
+CBSAFP,27380,"Jacksonville, TX",Core based statistical area
+CBSAFP,27420,"Jamestown, ND",Core based statistical area
+CBSAFP,27460,"Jamestown-Dunkirk-Fredonia, NY",Core based statistical area
+CBSAFP,27500,"Janesville-Beloit, WI",Core based statistical area
+CBSAFP,27530,"Jasper, AL",Core based statistical area
+CBSAFP,27540,"Jasper, IN",Core based statistical area
+CBSAFP,27580,"Jayuya, PR",Core based statistical area
+CBSAFP,27600,"Jefferson, GA",Core based statistical area
+CBSAFP,27620,"Jefferson City, MO",Core based statistical area
+CBSAFP,27660,"Jennings, LA",Core based statistical area
+CBSAFP,27700,"Jesup, GA",Core based statistical area
+CBSAFP,27740,"Johnson City, TN",Core based statistical area
+CBSAFP,27780,"Johnstown, PA",Core based statistical area
+CBSAFP,27860,"Jonesboro, AR",Core based statistical area
+CBSAFP,27900,"Joplin, MO",Core based statistical area
+CBSAFP,27940,"Juneau, AK",Core based statistical area
+CBSAFP,27980,"Kahului-Wailuku-Lahaina, HI",Core based statistical area
+CBSAFP,28020,"Kalamazoo-Portage, MI",Core based statistical area
+CBSAFP,28060,"Kalispell, MT",Core based statistical area
+CBSAFP,28100,"Kankakee, IL",Core based statistical area
+CBSAFP,28140,"Kansas City, MO-KS",Core based statistical area
+CBSAFP,28180,"Kapaa, HI",Core based statistical area
+CBSAFP,28260,"Kearney, NE",Core based statistical area
+CBSAFP,28300,"Keene, NH",Core based statistical area
+CBSAFP,28340,"Kendallville, IN",Core based statistical area
+CBSAFP,28380,"Kennett, MO",Core based statistical area
+CBSAFP,28420,"Kennewick-Richland, WA",Core based statistical area
+CBSAFP,28500,"Kerrville, TX",Core based statistical area
+CBSAFP,28540,"Ketchikan, AK",Core based statistical area
+CBSAFP,28580,"Key West, FL",Core based statistical area
+CBSAFP,28620,"Kill Devil Hills, NC",Core based statistical area
+CBSAFP,28660,"Killeen-Temple, TX",Core based statistical area
+CBSAFP,28700,"Kingsport-Bristol, TN-VA",Core based statistical area
+CBSAFP,28740,"Kingston, NY",Core based statistical area
+CBSAFP,28780,"Kingsville, TX",Core based statistical area
+CBSAFP,28820,"Kinston, NC",Core based statistical area
+CBSAFP,28860,"Kirksville, MO",Core based statistical area
+CBSAFP,28900,"Klamath Falls, OR",Core based statistical area
+CBSAFP,28940,"Knoxville, TN",Core based statistical area
+CBSAFP,29020,"Kokomo, IN",Core based statistical area
+CBSAFP,29060,"Laconia, NH",Core based statistical area
+CBSAFP,29100,"La Crosse-Onalaska, WI-MN",Core based statistical area
+CBSAFP,29180,"Lafayette, LA",Core based statistical area
+CBSAFP,29200,"Lafayette-West Lafayette, IN",Core based statistical area
+CBSAFP,29260,"La Grande, OR",Core based statistical area
+CBSAFP,29300,"LaGrange, GA-AL",Core based statistical area
+CBSAFP,29340,"Lake Charles, LA",Core based statistical area
+CBSAFP,29380,"Lake City, FL",Core based statistical area
+CBSAFP,29420,"Lake Havasu City-Kingman, AZ",Core based statistical area
+CBSAFP,29460,"Lakeland-Winter Haven, FL",Core based statistical area
+CBSAFP,29500,"Lamesa, TX",Core based statistical area
+CBSAFP,29540,"Lancaster, PA",Core based statistical area
+CBSAFP,29620,"Lansing-East Lansing, MI",Core based statistical area
+CBSAFP,29660,"Laramie, WY",Core based statistical area
+CBSAFP,29700,"Laredo, TX",Core based statistical area
+CBSAFP,29740,"Las Cruces, NM",Core based statistical area
+CBSAFP,29780,"Las Vegas, NM",Core based statistical area
+CBSAFP,29820,"Las Vegas-Henderson-Paradise, NV",Core based statistical area
+CBSAFP,29860,"Laurel, MS",Core based statistical area
+CBSAFP,29900,"Laurinburg, NC",Core based statistical area
+CBSAFP,29940,"Lawrence, KS",Core based statistical area
+CBSAFP,29980,"Lawrenceburg, TN",Core based statistical area
+CBSAFP,30020,"Lawton, OK",Core based statistical area
+CBSAFP,30060,"Lebanon, MO",Core based statistical area
+CBSAFP,30100,"Lebanon, NH-VT",Core based statistical area
+CBSAFP,30140,"Lebanon, PA",Core based statistical area
+CBSAFP,30220,"Levelland, TX",Core based statistical area
+CBSAFP,30260,"Lewisburg, PA",Core based statistical area
+CBSAFP,30280,"Lewisburg, TN",Core based statistical area
+CBSAFP,30300,"Lewiston, ID-WA",Core based statistical area
+CBSAFP,30340,"Lewiston-Auburn, ME",Core based statistical area
+CBSAFP,30380,"Lewistown, PA",Core based statistical area
+CBSAFP,30420,"Lexington, NE",Core based statistical area
+CBSAFP,30460,"Lexington-Fayette, KY",Core based statistical area
+CBSAFP,30580,"Liberal, KS",Core based statistical area
+CBSAFP,30620,"Lima, OH",Core based statistical area
+CBSAFP,30660,"Lincoln, IL",Core based statistical area
+CBSAFP,30700,"Lincoln, NE",Core based statistical area
+CBSAFP,30780,"Little Rock-North Little Rock-Conway, AR",Core based statistical area
+CBSAFP,30820,"Lock Haven, PA",Core based statistical area
+CBSAFP,30860,"Logan, UT-ID",Core based statistical area
+CBSAFP,30900,"Logansport, IN",Core based statistical area
+CBSAFP,30940,"London, KY",Core based statistical area
+CBSAFP,30980,"Longview, TX",Core based statistical area
+CBSAFP,31020,"Longview, WA",Core based statistical area
+CBSAFP,31060,"Los Alamos, NM",Core based statistical area
+CBSAFP,31080,"Los Angeles-Long Beach-Anaheim, CA",Core based statistical area
+CBSAFP,31140,"Louisville/Jefferson County, KY-IN",Core based statistical area
+CBSAFP,31180,"Lubbock, TX",Core based statistical area
+CBSAFP,31220,"Ludington, MI",Core based statistical area
+CBSAFP,31260,"Lufkin, TX",Core based statistical area
+CBSAFP,31300,"Lumberton, NC",Core based statistical area
+CBSAFP,31340,"Lynchburg, VA",Core based statistical area
+CBSAFP,31380,"Macomb, IL",Core based statistical area
+CBSAFP,31420,"Macon-Bibb County, GA",Core based statistical area
+CBSAFP,31460,"Madera, CA",Core based statistical area
+CBSAFP,31500,"Madison, IN",Core based statistical area
+CBSAFP,31540,"Madison, WI",Core based statistical area
+CBSAFP,31580,"Madisonville, KY",Core based statistical area
+CBSAFP,31620,"Magnolia, AR",Core based statistical area
+CBSAFP,31660,"Malone, NY",Core based statistical area
+CBSAFP,31680,"Malvern, AR",Core based statistical area
+CBSAFP,31700,"Manchester-Nashua, NH",Core based statistical area
+CBSAFP,31740,"Manhattan, KS",Core based statistical area
+CBSAFP,31820,"Manitowoc, WI",Core based statistical area
+CBSAFP,31860,"Mankato, MN",Core based statistical area
+CBSAFP,31900,"Mansfield, OH",Core based statistical area
+CBSAFP,31930,"Marietta, OH",Core based statistical area
+CBSAFP,31940,"Marinette, WI-MI",Core based statistical area
+CBSAFP,31980,"Marion, IN",Core based statistical area
+CBSAFP,32000,"Marion, NC",Core based statistical area
+CBSAFP,32020,"Marion, OH",Core based statistical area
+CBSAFP,32100,"Marquette, MI",Core based statistical area
+CBSAFP,32140,"Marshall, MN",Core based statistical area
+CBSAFP,32180,"Marshall, MO",Core based statistical area
+CBSAFP,32260,"Marshalltown, IA",Core based statistical area
+CBSAFP,32280,"Martin, TN",Core based statistical area
+CBSAFP,32300,"Martinsville, VA",Core based statistical area
+CBSAFP,32340,"Maryville, MO",Core based statistical area
+CBSAFP,32380,"Mason City, IA",Core based statistical area
+CBSAFP,32420,"Mayagüez, PR",Core based statistical area
+CBSAFP,32460,"Mayfield, KY",Core based statistical area
+CBSAFP,32500,"Maysville, KY",Core based statistical area
+CBSAFP,32540,"McAlester, OK",Core based statistical area
+CBSAFP,32580,"McAllen-Edinburg-Mission, TX",Core based statistical area
+CBSAFP,32620,"McComb, MS",Core based statistical area
+CBSAFP,32660,"McMinnville, TN",Core based statistical area
+CBSAFP,32700,"McPherson, KS",Core based statistical area
+CBSAFP,32740,"Meadville, PA",Core based statistical area
+CBSAFP,32780,"Medford, OR",Core based statistical area
+CBSAFP,32820,"Memphis, TN-MS-AR",Core based statistical area
+CBSAFP,32860,"Menomonie, WI",Core based statistical area
+CBSAFP,32900,"Merced, CA",Core based statistical area
+CBSAFP,32940,"Meridian, MS",Core based statistical area
+CBSAFP,33020,"Mexico, MO",Core based statistical area
+CBSAFP,33060,"Miami, OK",Core based statistical area
+CBSAFP,33100,"Miami-Fort Lauderdale-Pompano Beach, FL",Core based statistical area
+CBSAFP,33140,"Michigan City-La Porte, IN",Core based statistical area
+CBSAFP,33180,"Middlesborough, KY",Core based statistical area
+CBSAFP,33220,"Midland, MI",Core based statistical area
+CBSAFP,33260,"Midland, TX",Core based statistical area
+CBSAFP,33300,"Milledgeville, GA",Core based statistical area
+CBSAFP,33340,"Milwaukee-Waukesha, WI",Core based statistical area
+CBSAFP,33380,"Minden, LA",Core based statistical area
+CBSAFP,33420,"Mineral Wells, TX",Core based statistical area
+CBSAFP,33460,"Minneapolis-St. Paul-Bloomington, MN-WI",Core based statistical area
+CBSAFP,33500,"Minot, ND",Core based statistical area
+CBSAFP,33540,"Missoula, MT",Core based statistical area
+CBSAFP,33580,"Mitchell, SD",Core based statistical area
+CBSAFP,33620,"Moberly, MO",Core based statistical area
+CBSAFP,33660,"Mobile, AL",Core based statistical area
+CBSAFP,33700,"Modesto, CA",Core based statistical area
+CBSAFP,33740,"Monroe, LA",Core based statistical area
+CBSAFP,33780,"Monroe, MI",Core based statistical area
+CBSAFP,33860,"Montgomery, AL",Core based statistical area
+CBSAFP,33940,"Montrose, CO",Core based statistical area
+CBSAFP,33980,"Morehead City, NC",Core based statistical area
+CBSAFP,34020,"Morgan City, LA",Core based statistical area
+CBSAFP,34060,"Morgantown, WV",Core based statistical area
+CBSAFP,34100,"Morristown, TN",Core based statistical area
+CBSAFP,34140,"Moscow, ID",Core based statistical area
+CBSAFP,34180,"Moses Lake, WA",Core based statistical area
+CBSAFP,34220,"Moultrie, GA",Core based statistical area
+CBSAFP,34260,"Mountain Home, AR",Core based statistical area
+CBSAFP,34300,"Mountain Home, ID",Core based statistical area
+CBSAFP,34340,"Mount Airy, NC",Core based statistical area
+CBSAFP,34350,"Mount Gay-Shamrock, WV",Core based statistical area
+CBSAFP,34380,"Mount Pleasant, MI",Core based statistical area
+CBSAFP,34420,"Mount Pleasant, TX",Core based statistical area
+CBSAFP,34460,"Mount Sterling, KY",Core based statistical area
+CBSAFP,34500,"Mount Vernon, IL",Core based statistical area
+CBSAFP,34540,"Mount Vernon, OH",Core based statistical area
+CBSAFP,34580,"Mount Vernon-Anacortes, WA",Core based statistical area
+CBSAFP,34620,"Muncie, IN",Core based statistical area
+CBSAFP,34660,"Murray, KY",Core based statistical area
+CBSAFP,34700,"Muscatine, IA",Core based statistical area
+CBSAFP,34740,"Muskegon, MI",Core based statistical area
+CBSAFP,34780,"Muskogee, OK",Core based statistical area
+CBSAFP,34820,"Myrtle Beach-Conway-North Myrtle Beach, SC-NC",Core based statistical area
+CBSAFP,34860,"Nacogdoches, TX",Core based statistical area
+CBSAFP,34900,"Napa, CA",Core based statistical area
+CBSAFP,34940,"Naples-Marco Island, FL",Core based statistical area
+CBSAFP,34980,"Nashville-Davidson--Murfreesboro--Franklin, TN",Core based statistical area
+CBSAFP,35020,"Natchez, MS-LA",Core based statistical area
+CBSAFP,35060,"Natchitoches, LA",Core based statistical area
+CBSAFP,35100,"New Bern, NC",Core based statistical area
+CBSAFP,35140,"Newberry, SC",Core based statistical area
+CBSAFP,35220,"New Castle, IN",Core based statistical area
+CBSAFP,35260,"New Castle, PA",Core based statistical area
+CBSAFP,35300,"New Haven-Milford, CT",Core based statistical area
+CBSAFP,35380,"New Orleans-Metairie, LA",Core based statistical area
+CBSAFP,35420,"New Philadelphia-Dover, OH",Core based statistical area
+CBSAFP,35440,"Newport, OR",Core based statistical area
+CBSAFP,35460,"Newport, TN",Core based statistical area
+CBSAFP,35580,"New Ulm, MN",Core based statistical area
+CBSAFP,35620,"New York-Newark-Jersey City, NY-NJ-PA",Core based statistical area
+CBSAFP,35660,"Niles, MI",Core based statistical area
+CBSAFP,35700,"Nogales, AZ",Core based statistical area
+CBSAFP,35740,"Norfolk, NE",Core based statistical area
+CBSAFP,35820,"North Platte, NE",Core based statistical area
+CBSAFP,35840,"North Port-Sarasota-Bradenton, FL",Core based statistical area
+CBSAFP,35860,"North Vernon, IN",Core based statistical area
+CBSAFP,35900,"North Wilkesboro, NC",Core based statistical area
+CBSAFP,35940,"Norwalk, OH",Core based statistical area
+CBSAFP,35980,"Norwich-New London, CT",Core based statistical area
+CBSAFP,36020,"Oak Harbor, WA",Core based statistical area
+CBSAFP,36100,"Ocala, FL",Core based statistical area
+CBSAFP,36140,"Ocean City, NJ",Core based statistical area
+CBSAFP,36220,"Odessa, TX",Core based statistical area
+CBSAFP,36260,"Ogden-Clearfield, UT",Core based statistical area
+CBSAFP,36300,"Ogdensburg-Massena, NY",Core based statistical area
+CBSAFP,36340,"Oil City, PA",Core based statistical area
+CBSAFP,36380,"Okeechobee, FL",Core based statistical area
+CBSAFP,36420,"Oklahoma City, OK",Core based statistical area
+CBSAFP,36460,"Olean, NY",Core based statistical area
+CBSAFP,36500,"Olympia-Lacey-Tumwater, WA",Core based statistical area
+CBSAFP,36540,"Omaha-Council Bluffs, NE-IA",Core based statistical area
+CBSAFP,36580,"Oneonta, NY",Core based statistical area
+CBSAFP,36620,"Ontario, OR-ID",Core based statistical area
+CBSAFP,36660,"Opelousas, LA",Core based statistical area
+CBSAFP,36700,"Orangeburg, SC",Core based statistical area
+CBSAFP,36740,"Orlando-Kissimmee-Sanford, FL",Core based statistical area
+CBSAFP,36780,"Oshkosh-Neenah, WI",Core based statistical area
+CBSAFP,36820,"Oskaloosa, IA",Core based statistical area
+CBSAFP,36830,"Othello, WA",Core based statistical area
+CBSAFP,36837,"Ottawa, IL",Core based statistical area
+CBSAFP,36840,"Ottawa, KS",Core based statistical area
+CBSAFP,36900,"Ottumwa, IA",Core based statistical area
+CBSAFP,36940,"Owatonna, MN",Core based statistical area
+CBSAFP,36980,"Owensboro, KY",Core based statistical area
+CBSAFP,37060,"Oxford, MS",Core based statistical area
+CBSAFP,37100,"Oxnard-Thousand Oaks-Ventura, CA",Core based statistical area
+CBSAFP,37120,"Ozark, AL",Core based statistical area
+CBSAFP,37140,"Paducah, KY-IL",Core based statistical area
+CBSAFP,37220,"Pahrump, NV",Core based statistical area
+CBSAFP,37260,"Palatka, FL",Core based statistical area
+CBSAFP,37300,"Palestine, TX",Core based statistical area
+CBSAFP,37340,"Palm Bay-Melbourne-Titusville, FL",Core based statistical area
+CBSAFP,37420,"Pampa, TX",Core based statistical area
+CBSAFP,37460,"Panama City, FL",Core based statistical area
+CBSAFP,37500,"Paragould, AR",Core based statistical area
+CBSAFP,37540,"Paris, TN",Core based statistical area
+CBSAFP,37580,"Paris, TX",Core based statistical area
+CBSAFP,37620,"Parkersburg-Vienna, WV",Core based statistical area
+CBSAFP,37660,"Parsons, KS",Core based statistical area
+CBSAFP,37740,"Payson, AZ",Core based statistical area
+CBSAFP,37770,"Pearsall, TX",Core based statistical area
+CBSAFP,37780,"Pecos, TX",Core based statistical area
+CBSAFP,37800,"Pella, IA",Core based statistical area
+CBSAFP,37860,"Pensacola-Ferry Pass-Brent, FL",Core based statistical area
+CBSAFP,37900,"Peoria, IL",Core based statistical area
+CBSAFP,37940,"Peru, IN",Core based statistical area
+CBSAFP,37980,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",Core based statistical area
+CBSAFP,38060,"Phoenix-Mesa-Chandler, AZ",Core based statistical area
+CBSAFP,38100,"Picayune, MS",Core based statistical area
+CBSAFP,38180,"Pierre, SD",Core based statistical area
+CBSAFP,38220,"Pine Bluff, AR",Core based statistical area
+CBSAFP,38240,"Pinehurst-Southern Pines, NC",Core based statistical area
+CBSAFP,38260,"Pittsburg, KS",Core based statistical area
+CBSAFP,38300,"Pittsburgh, PA",Core based statistical area
+CBSAFP,38340,"Pittsfield, MA",Core based statistical area
+CBSAFP,38380,"Plainview, TX",Core based statistical area
+CBSAFP,38420,"Platteville, WI",Core based statistical area
+CBSAFP,38460,"Plattsburgh, NY",Core based statistical area
+CBSAFP,38500,"Plymouth, IN",Core based statistical area
+CBSAFP,38540,"Pocatello, ID",Core based statistical area
+CBSAFP,38580,"Point Pleasant, WV-OH",Core based statistical area
+CBSAFP,38620,"Ponca City, OK",Core based statistical area
+CBSAFP,38660,"Ponce, PR",Core based statistical area
+CBSAFP,38700,"Pontiac, IL",Core based statistical area
+CBSAFP,38740,"Poplar Bluff, MO",Core based statistical area
+CBSAFP,38780,"Portales, NM",Core based statistical area
+CBSAFP,38820,"Port Angeles, WA",Core based statistical area
+CBSAFP,38860,"Portland-South Portland, ME",Core based statistical area
+CBSAFP,38900,"Portland-Vancouver-Hillsboro, OR-WA",Core based statistical area
+CBSAFP,38920,"Port Lavaca, TX",Core based statistical area
+CBSAFP,38940,"Port St. Lucie, FL",Core based statistical area
+CBSAFP,39020,"Portsmouth, OH",Core based statistical area
+CBSAFP,39060,"Pottsville, PA",Core based statistical area
+CBSAFP,39100,"Poughkeepsie-Newburgh-Middletown, NY",Core based statistical area
+CBSAFP,39150,"Prescott Valley-Prescott, AZ",Core based statistical area
+CBSAFP,39220,"Price, UT",Core based statistical area
+CBSAFP,39260,"Prineville, OR",Core based statistical area
+CBSAFP,39300,"Providence-Warwick, RI-MA",Core based statistical area
+CBSAFP,39340,"Provo-Orem, UT",Core based statistical area
+CBSAFP,39380,"Pueblo, CO",Core based statistical area
+CBSAFP,39420,"Pullman, WA",Core based statistical area
+CBSAFP,39460,"Punta Gorda, FL",Core based statistical area
+CBSAFP,39500,"Quincy, IL-MO",Core based statistical area
+CBSAFP,39540,"Racine, WI",Core based statistical area
+CBSAFP,39580,"Raleigh-Cary, NC",Core based statistical area
+CBSAFP,39660,"Rapid City, SD",Core based statistical area
+CBSAFP,39700,"Raymondville, TX",Core based statistical area
+CBSAFP,39740,"Reading, PA",Core based statistical area
+CBSAFP,39780,"Red Bluff, CA",Core based statistical area
+CBSAFP,39820,"Redding, CA",Core based statistical area
+CBSAFP,39860,"Red Wing, MN",Core based statistical area
+CBSAFP,39900,"Reno, NV",Core based statistical area
+CBSAFP,39940,"Rexburg, ID",Core based statistical area
+CBSAFP,39980,"Richmond, IN",Core based statistical area
+CBSAFP,40060,"Richmond, VA",Core based statistical area
+CBSAFP,40080,"Richmond-Berea, KY",Core based statistical area
+CBSAFP,40100,"Rio Grande City-Roma, TX",Core based statistical area
+CBSAFP,40140,"Riverside-San Bernardino-Ontario, CA",Core based statistical area
+CBSAFP,40180,"Riverton, WY",Core based statistical area
+CBSAFP,40220,"Roanoke, VA",Core based statistical area
+CBSAFP,40260,"Roanoke Rapids, NC",Core based statistical area
+CBSAFP,40300,"Rochelle, IL",Core based statistical area
+CBSAFP,40340,"Rochester, MN",Core based statistical area
+CBSAFP,40380,"Rochester, NY",Core based statistical area
+CBSAFP,40420,"Rockford, IL",Core based statistical area
+CBSAFP,40460,"Rockingham, NC",Core based statistical area
+CBSAFP,40530,"Rockport, TX",Core based statistical area
+CBSAFP,40540,"Rock Springs, WY",Core based statistical area
+CBSAFP,40580,"Rocky Mount, NC",Core based statistical area
+CBSAFP,40620,"Rolla, MO",Core based statistical area
+CBSAFP,40660,"Rome, GA",Core based statistical area
+CBSAFP,40700,"Roseburg, OR",Core based statistical area
+CBSAFP,40740,"Roswell, NM",Core based statistical area
+CBSAFP,40760,"Ruidoso, NM",Core based statistical area
+CBSAFP,40780,"Russellville, AR",Core based statistical area
+CBSAFP,40820,"Ruston, LA",Core based statistical area
+CBSAFP,40860,"Rutland, VT",Core based statistical area
+CBSAFP,40900,"Sacramento-Roseville-Folsom, CA",Core based statistical area
+CBSAFP,40940,"Safford, AZ",Core based statistical area
+CBSAFP,40980,"Saginaw, MI",Core based statistical area
+CBSAFP,41060,"St. Cloud, MN",Core based statistical area
+CBSAFP,41100,"St. George, UT",Core based statistical area
+CBSAFP,41140,"St. Joseph, MO-KS",Core based statistical area
+CBSAFP,41180,"St. Louis, MO-IL",Core based statistical area
+CBSAFP,41220,"St. Marys, GA",Core based statistical area
+CBSAFP,41260,"St. Marys, PA",Core based statistical area
+CBSAFP,41400,"Salem, OH",Core based statistical area
+CBSAFP,41420,"Salem, OR",Core based statistical area
+CBSAFP,41460,"Salina, KS",Core based statistical area
+CBSAFP,41500,"Salinas, CA",Core based statistical area
+CBSAFP,41540,"Salisbury, MD-DE",Core based statistical area
+CBSAFP,41620,"Salt Lake City, UT",Core based statistical area
+CBSAFP,41660,"San Angelo, TX",Core based statistical area
+CBSAFP,41700,"San Antonio-New Braunfels, TX",Core based statistical area
+CBSAFP,41740,"San Diego-Chula Vista-Carlsbad, CA",Core based statistical area
+CBSAFP,41760,"Sandpoint, ID",Core based statistical area
+CBSAFP,41780,"Sandusky, OH",Core based statistical area
+CBSAFP,41820,"Sanford, NC",Core based statistical area
+CBSAFP,41860,"San Francisco-Oakland-Berkeley, CA",Core based statistical area
+CBSAFP,41900,"San Germán, PR",Core based statistical area
+CBSAFP,41940,"San Jose-Sunnyvale-Santa Clara, CA",Core based statistical area
+CBSAFP,41980,"San Juan-Bayamón-Caguas, PR",Core based statistical area
+CBSAFP,42020,"San Luis Obispo-Paso Robles, CA",Core based statistical area
+CBSAFP,42100,"Santa Cruz-Watsonville, CA",Core based statistical area
+CBSAFP,42140,"Santa Fe, NM",Core based statistical area
+CBSAFP,42180,"Santa Isabel, PR",Core based statistical area
+CBSAFP,42200,"Santa Maria-Santa Barbara, CA",Core based statistical area
+CBSAFP,42220,"Santa Rosa-Petaluma, CA",Core based statistical area
+CBSAFP,42300,"Sault Ste. Marie, MI",Core based statistical area
+CBSAFP,42340,"Savannah, GA",Core based statistical area
+CBSAFP,42380,"Sayre, PA",Core based statistical area
+CBSAFP,42420,"Scottsbluff, NE",Core based statistical area
+CBSAFP,42460,"Scottsboro, AL",Core based statistical area
+CBSAFP,42500,"Scottsburg, IN",Core based statistical area
+CBSAFP,42540,"Scranton--Wilkes-Barre, PA",Core based statistical area
+CBSAFP,42620,"Searcy, AR",Core based statistical area
+CBSAFP,42660,"Seattle-Tacoma-Bellevue, WA",Core based statistical area
+CBSAFP,42680,"Sebastian-Vero Beach, FL",Core based statistical area
+CBSAFP,42700,"Sebring-Avon Park, FL",Core based statistical area
+CBSAFP,42740,"Sedalia, MO",Core based statistical area
+CBSAFP,42780,"Selinsgrove, PA",Core based statistical area
+CBSAFP,42820,"Selma, AL",Core based statistical area
+CBSAFP,42860,"Seneca, SC",Core based statistical area
+CBSAFP,42900,"Seneca Falls, NY",Core based statistical area
+CBSAFP,42940,"Sevierville, TN",Core based statistical area
+CBSAFP,42980,"Seymour, IN",Core based statistical area
+CBSAFP,43020,"Shawano, WI",Core based statistical area
+CBSAFP,43060,"Shawnee, OK",Core based statistical area
+CBSAFP,43100,"Sheboygan, WI",Core based statistical area
+CBSAFP,43140,"Shelby, NC",Core based statistical area
+CBSAFP,43180,"Shelbyville, TN",Core based statistical area
+CBSAFP,43220,"Shelton, WA",Core based statistical area
+CBSAFP,43260,"Sheridan, WY",Core based statistical area
+CBSAFP,43300,"Sherman-Denison, TX",Core based statistical area
+CBSAFP,43320,"Show Low, AZ",Core based statistical area
+CBSAFP,43340,"Shreveport-Bossier City, LA",Core based statistical area
+CBSAFP,43380,"Sidney, OH",Core based statistical area
+CBSAFP,43420,"Sierra Vista-Douglas, AZ",Core based statistical area
+CBSAFP,43460,"Sikeston, MO",Core based statistical area
+CBSAFP,43500,"Silver City, NM",Core based statistical area
+CBSAFP,43580,"Sioux City, IA-NE-SD",Core based statistical area
+CBSAFP,43620,"Sioux Falls, SD",Core based statistical area
+CBSAFP,43660,"Snyder, TX",Core based statistical area
+CBSAFP,43700,"Somerset, KY",Core based statistical area
+CBSAFP,43740,"Somerset, PA",Core based statistical area
+CBSAFP,43760,"Sonora, CA",Core based statistical area
+CBSAFP,43780,"South Bend-Mishawaka, IN-MI",Core based statistical area
+CBSAFP,43900,"Spartanburg, SC",Core based statistical area
+CBSAFP,43940,"Spearfish, SD",Core based statistical area
+CBSAFP,43980,"Spencer, IA",Core based statistical area
+CBSAFP,44020,"Spirit Lake, IA",Core based statistical area
+CBSAFP,44060,"Spokane-Spokane Valley, WA",Core based statistical area
+CBSAFP,44100,"Springfield, IL",Core based statistical area
+CBSAFP,44140,"Springfield, MA",Core based statistical area
+CBSAFP,44180,"Springfield, MO",Core based statistical area
+CBSAFP,44220,"Springfield, OH",Core based statistical area
+CBSAFP,44260,"Starkville, MS",Core based statistical area
+CBSAFP,44300,"State College, PA",Core based statistical area
+CBSAFP,44340,"Statesboro, GA",Core based statistical area
+CBSAFP,44420,"Staunton, VA",Core based statistical area
+CBSAFP,44460,"Steamboat Springs, CO",Core based statistical area
+CBSAFP,44500,"Stephenville, TX",Core based statistical area
+CBSAFP,44540,"Sterling, CO",Core based statistical area
+CBSAFP,44580,"Sterling, IL",Core based statistical area
+CBSAFP,44620,"Stevens Point, WI",Core based statistical area
+CBSAFP,44660,"Stillwater, OK",Core based statistical area
+CBSAFP,44700,"Stockton, CA",Core based statistical area
+CBSAFP,44740,"Storm Lake, IA",Core based statistical area
+CBSAFP,44780,"Sturgis, MI",Core based statistical area
+CBSAFP,44860,"Sulphur Springs, TX",Core based statistical area
+CBSAFP,44900,"Summerville, GA",Core based statistical area
+CBSAFP,44940,"Sumter, SC",Core based statistical area
+CBSAFP,44980,"Sunbury, PA",Core based statistical area
+CBSAFP,45000,"Susanville, CA",Core based statistical area
+CBSAFP,45020,"Sweetwater, TX",Core based statistical area
+CBSAFP,45060,"Syracuse, NY",Core based statistical area
+CBSAFP,45140,"Tahlequah, OK",Core based statistical area
+CBSAFP,45180,"Talladega-Sylacauga, AL",Core based statistical area
+CBSAFP,45220,"Tallahassee, FL",Core based statistical area
+CBSAFP,45300,"Tampa-St. Petersburg-Clearwater, FL",Core based statistical area
+CBSAFP,45340,"Taos, NM",Core based statistical area
+CBSAFP,45380,"Taylorville, IL",Core based statistical area
+CBSAFP,45460,"Terre Haute, IN",Core based statistical area
+CBSAFP,45500,"Texarkana, TX-AR",Core based statistical area
+CBSAFP,45520,"The Dalles, OR",Core based statistical area
+CBSAFP,45540,"The Villages, FL",Core based statistical area
+CBSAFP,45580,"Thomaston, GA",Core based statistical area
+CBSAFP,45620,"Thomasville, GA",Core based statistical area
+CBSAFP,45660,"Tiffin, OH",Core based statistical area
+CBSAFP,45700,"Tifton, GA",Core based statistical area
+CBSAFP,45740,"Toccoa, GA",Core based statistical area
+CBSAFP,45780,"Toledo, OH",Core based statistical area
+CBSAFP,45820,"Topeka, KS",Core based statistical area
+CBSAFP,45860,"Torrington, CT",Core based statistical area
+CBSAFP,45900,"Traverse City, MI",Core based statistical area
+CBSAFP,45940,"Trenton-Princeton, NJ",Core based statistical area
+CBSAFP,45980,"Troy, AL",Core based statistical area
+CBSAFP,46020,"Truckee-Grass Valley, CA",Core based statistical area
+CBSAFP,46060,"Tucson, AZ",Core based statistical area
+CBSAFP,46100,"Tullahoma-Manchester, TN",Core based statistical area
+CBSAFP,46140,"Tulsa, OK",Core based statistical area
+CBSAFP,46180,"Tupelo, MS",Core based statistical area
+CBSAFP,46220,"Tuscaloosa, AL",Core based statistical area
+CBSAFP,46300,"Twin Falls, ID",Core based statistical area
+CBSAFP,46340,"Tyler, TX",Core based statistical area
+CBSAFP,46380,"Ukiah, CA",Core based statistical area
+CBSAFP,46420,"Union, SC",Core based statistical area
+CBSAFP,46460,"Union City, TN",Core based statistical area
+CBSAFP,46500,"Urbana, OH",Core based statistical area
+CBSAFP,46520,"Urban Honolulu, HI",Core based statistical area
+CBSAFP,46540,"Utica-Rome, NY",Core based statistical area
+CBSAFP,46620,"Uvalde, TX",Core based statistical area
+CBSAFP,46660,"Valdosta, GA",Core based statistical area
+CBSAFP,46700,"Vallejo, CA",Core based statistical area
+CBSAFP,46780,"Van Wert, OH",Core based statistical area
+CBSAFP,46820,"Vermillion, SD",Core based statistical area
+CBSAFP,46860,"Vernal, UT",Core based statistical area
+CBSAFP,46900,"Vernon, TX",Core based statistical area
+CBSAFP,46980,"Vicksburg, MS",Core based statistical area
+CBSAFP,47020,"Victoria, TX",Core based statistical area
+CBSAFP,47080,"Vidalia, GA",Core based statistical area
+CBSAFP,47180,"Vincennes, IN",Core based statistical area
+CBSAFP,47220,"Vineland-Bridgeton, NJ",Core based statistical area
+CBSAFP,47240,"Vineyard Haven, MA",Core based statistical area
+CBSAFP,47260,"Virginia Beach-Norfolk-Newport News, VA-NC",Core based statistical area
+CBSAFP,47300,"Visalia, CA",Core based statistical area
+CBSAFP,47340,"Wabash, IN",Core based statistical area
+CBSAFP,47380,"Waco, TX",Core based statistical area
+CBSAFP,47420,"Wahpeton, ND-MN",Core based statistical area
+CBSAFP,47460,"Walla Walla, WA",Core based statistical area
+CBSAFP,47540,"Wapakoneta, OH",Core based statistical area
+CBSAFP,47580,"Warner Robins, GA",Core based statistical area
+CBSAFP,47620,"Warren, PA",Core based statistical area
+CBSAFP,47660,"Warrensburg, MO",Core based statistical area
+CBSAFP,47700,"Warsaw, IN",Core based statistical area
+CBSAFP,47780,"Washington, IN",Core based statistical area
+CBSAFP,47820,"Washington, NC",Core based statistical area
+CBSAFP,47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV",Core based statistical area
+CBSAFP,47920,"Washington Court House, OH",Core based statistical area
+CBSAFP,47940,"Waterloo-Cedar Falls, IA",Core based statistical area
+CBSAFP,47980,"Watertown, SD",Core based statistical area
+CBSAFP,48020,"Watertown-Fort Atkinson, WI",Core based statistical area
+CBSAFP,48060,"Watertown-Fort Drum, NY",Core based statistical area
+CBSAFP,48100,"Wauchula, FL",Core based statistical area
+CBSAFP,48140,"Wausau-Weston, WI",Core based statistical area
+CBSAFP,48180,"Waycross, GA",Core based statistical area
+CBSAFP,48220,"Weatherford, OK",Core based statistical area
+CBSAFP,48260,"Weirton-Steubenville, WV-OH",Core based statistical area
+CBSAFP,48300,"Wenatchee, WA",Core based statistical area
+CBSAFP,48460,"West Plains, MO",Core based statistical area
+CBSAFP,48500,"West Point, MS",Core based statistical area
+CBSAFP,48540,"Wheeling, WV-OH",Core based statistical area
+CBSAFP,48580,"Whitewater, WI",Core based statistical area
+CBSAFP,48620,"Wichita, KS",Core based statistical area
+CBSAFP,48660,"Wichita Falls, TX",Core based statistical area
+CBSAFP,48700,"Williamsport, PA",Core based statistical area
+CBSAFP,48780,"Williston, ND",Core based statistical area
+CBSAFP,48820,"Willmar, MN",Core based statistical area
+CBSAFP,48900,"Wilmington, NC",Core based statistical area
+CBSAFP,48940,"Wilmington, OH",Core based statistical area
+CBSAFP,48980,"Wilson, NC",Core based statistical area
+CBSAFP,49020,"Winchester, VA-WV",Core based statistical area
+CBSAFP,49060,"Winfield, KS",Core based statistical area
+CBSAFP,49080,"Winnemucca, NV",Core based statistical area
+CBSAFP,49100,"Winona, MN",Core based statistical area
+CBSAFP,49180,"Winston-Salem, NC",Core based statistical area
+CBSAFP,49220,"Wisconsin Rapids-Marshfield, WI",Core based statistical area
+CBSAFP,49260,"Woodward, OK",Core based statistical area
+CBSAFP,49300,"Wooster, OH",Core based statistical area
+CBSAFP,49340,"Worcester, MA-CT",Core based statistical area
+CBSAFP,49380,"Worthington, MN",Core based statistical area
+CBSAFP,49420,"Yakima, WA",Core based statistical area
+CBSAFP,49460,"Yankton, SD",Core based statistical area
+CBSAFP,49500,"Yauco, PR",Core based statistical area
+CBSAFP,49620,"York-Hanover, PA",Core based statistical area
+CBSAFP,49660,"Youngstown-Warren-Boardman, OH-PA",Core based statistical area
+CBSAFP,49700,"Yuba City, CA",Core based statistical area
+CBSAFP,49740,"Yuma, AZ",Core based statistical area
+CBSAFP,49780,"Zanesville, OH",Core based statistical area
+CBSAFP,49820,"Zapata, TX",Core based statistical area
+CSAFP,220,"Detroit-Warren-Ann Arbor, MI",Combined statistical area
+CSAFP,184,"Cleveland-Akron-Canton, OH",Combined statistical area
+CSAFP,440,"Portland-Vancouver-Salem, OR-WA",Combined statistical area
+CSAFP,104,"Albany-Schenectady, NY",Combined statistical area
+CSAFP,172,"Charlotte-Concord, NC-SC",Combined statistical area
+CSAFP,106,"Albuquerque-Santa Fe-Las Vegas, NM",Combined statistical area
+CSAFP,388,"Montgomery-Selma-Alexander City, AL",Combined statistical area
+CSAFP,204,"Corpus Christi-Kingsville-Alice, TX",Combined statistical area
+CSAFP,394,"Mount Pleasant-Alma, MI",Combined statistical area
+CSAFP,107,"Altoona-Huntingdon, PA",Combined statistical area
+CSAFP,108,"Amarillo-Pampa-Borger, TX",Combined statistical area
+CSAFP,218,"Des Moines-Ames-West Des Moines, IA",Combined statistical area
+CSAFP,258,"Fort Wayne-Huntington-Auburn, IN",Combined statistical area
+CSAFP,118,"Appleton-Oshkosh-Neenah, WI",Combined statistical area
+CSAFP,412,"North Port-Sarasota, FL",Combined statistical area
+CSAFP,490,"San Juan-Bayamón, PR",Combined statistical area
+CSAFP,120,"Asheville-Marion-Brevard, NC",Combined statistical area
+CSAFP,360,"Mansfield-Ashland-Bucyrus, OH",Combined statistical area
+CSAFP,312,"Kansas City-Overland Park-Kansas City, MO-KS",Combined statistical area
+CSAFP,174,"Chattanooga-Cleveland-Dalton, TN-GA",Combined statistical area
+CSAFP,206,"Dallas-Fort Worth, TX-OK",Combined statistical area
+CSAFP,122,"Atlanta--Athens-Clarke County--Sandy Springs, GA-AL",Combined statistical area
+CSAFP,428,"Philadelphia-Reading-Camden, PA-NJ-DE-MD",Combined statistical area
+CSAFP,426,"Pensacola-Ferry Pass, FL-AL",Combined statistical area
+CSAFP,532,"Syracuse-Auburn, NY",Combined statistical area
+CSAFP,194,"Columbus-Auburn-Opelika, GA-AL",Combined statistical area
+CSAFP,462,"Rochester-Austin, MN",Combined statistical area
+CSAFP,548,"Washington-Baltimore-Arlington, DC-MD-VA-WV-PA",Combined statistical area
+CSAFP,357,"Madison-Janesville-Beloit, WI",Combined statistical area
+CSAFP,350,"Louisville/Jefferson County--Elizabethtown--Bardstown, KY-IN",Combined statistical area
+CSAFP,148,"Boston-Worcester-Providence, MA-RI-NH-CT",Combined statistical area
+CSAFP,162,"Burlington-South Burlington-Barre, VT",Combined statistical area
+CSAFP,538,"Tulsa-Muskogee-Bartlesville, OK",Combined statistical area
+CSAFP,464,"Rochester-Batavia-Seneca Falls, NY",Combined statistical area
+CSAFP,310,"Kalamazoo-Battle Creek-Portage, MI",Combined statistical area
+CSAFP,474,"Saginaw-Midland-Bay City, MI",Combined statistical area
+CSAFP,288,"Houston-The Woodlands, TX",Combined statistical area
+CSAFP,339,"Lincoln-Beatrice, NE",Combined statistical area
+CSAFP,376,"Milwaukee-Racine-Waukesha, WI",Combined statistical area
+CSAFP,144,"Bloomington-Bedford, IN",Combined statistical area
+CSAFP,198,"Columbus-Marion-Zanesville, OH",Combined statistical area
+CSAFP,140,"Bend-Prineville, OR",Combined statistical area
+CSAFP,266,"Grand Rapids-Kentwood-Muskegon, MI",Combined statistical area
+CSAFP,142,"Birmingham-Hoover-Talladega, AL",Combined statistical area
+CSAFP,292,"Idaho Falls-Rexburg-Blackfoot, ID",Combined statistical area
+CSAFP,145,"Bloomington-Pontiac, IL",Combined statistical area
+CSAFP,146,"Bloomsburg-Berwick-Sunbury, PA",Combined statistical area
+CSAFP,406,"New Orleans-Metairie-Hammond, LA-MS",Combined statistical area
+CSAFP,147,"Boise City-Mountain Home-Ontario, ID-OR",Combined statistical area
+CSAFP,216,"Denver-Aurora, CO",Combined statistical area
+CSAFP,150,"Bowling Green-Glasgow, KY",Combined statistical area
+CSAFP,500,"Seattle-Tacoma, WA",Combined statistical area
+CSAFP,408,"New York-Newark, NY-NJ-CT-PA",Combined statistical area
+CSAFP,298,"Jackson-Vicksburg-Brookhaven, MS",Combined statistical area
+CSAFP,297,"Jackson-Brownsville, TN",Combined statistical area
+CSAFP,154,"Brownsville-Harlingen-Raymondville, TX",Combined statistical area
+CSAFP,160,"Buffalo-Cheektowaga-Olean, NY",Combined statistical area
+CSAFP,161,"Burlington-Fort Madison-Keokuk, IA-IL-MO",Combined statistical area
+CSAFP,268,"Greensboro--Winston-Salem--High Point, NC",Combined statistical area
+CSAFP,480,"Salisbury-Cambridge, MD-DE",Combined statistical area
+CSAFP,444,"Pueblo-Cañon City, CO",Combined statistical area
+CSAFP,163,"Cape Coral-Fort Myers-Naples, FL",Combined statistical area
+CSAFP,164,"Cape Girardeau-Sikeston, MO-IL",Combined statistical area
+CSAFP,456,"Reno-Carson City-Fernley, NV",Combined statistical area
+CSAFP,168,"Cedar Rapids-Iowa City, IA",Combined statistical area
+CSAFP,338,"Lima-Van Wert-Celina, OH",Combined statistical area
+CSAFP,476,"St. Louis-St. Charles-Farmington, MO-IL",Combined statistical area
+CSAFP,170,"Charleston-Huntington-Ashland, WV-OH-KY",Combined statistical area
+CSAFP,176,"Chicago-Naperville, IL-IN-WI",Combined statistical area
+CSAFP,178,"Cincinnati-Wilmington-Maysville, OH-KY-IN",Combined statistical area
+CSAFP,185,"Cleveland-Indianola, MS",Combined statistical area
+CSAFP,209,"Davenport-Moline, IA-IL",Combined statistical area
+CSAFP,188,"Clovis-Portales, NM",Combined statistical area
+CSAFP,434,"Ponce-Yauco-Coamo, PR",Combined statistical area
+CSAFP,518,"Spokane-Spokane Valley-Coeur d'Alene, WA-ID",Combined statistical area
+CSAFP,190,"Columbia-Moberly-Mexico, MO",Combined statistical area
+CSAFP,192,"Columbia-Orangeburg-Newberry, SC",Combined statistical area
+CSAFP,294,"Indianapolis-Carmel-Muncie, IN",Combined statistical area
+CSAFP,200,"Columbus-West Point, MS",Combined statistical area
+CSAFP,458,"Richmond-Connersville, IN",Combined statistical area
+CSAFP,539,"Tupelo-Corinth, MS",Combined statistical area
+CSAFP,236,"Elmira-Corning, NY",Combined statistical area
+CSAFP,296,"Ithaca-Cortland, NY",Combined statistical area
+CSAFP,525,"Steamboat Springs-Craig, CO",Combined statistical area
+CSAFP,380,"Mobile-Daphne-Fairhope, AL",Combined statistical area
+CSAFP,212,"Dayton-Springfield-Kettering, OH",Combined statistical area
+CSAFP,290,"Huntsville-Decatur, AL",Combined statistical area
+CSAFP,422,"Orlando-Lakeland-Deltona, FL",Combined statistical area
+CSAFP,217,"DeRidder-Fort Polk South, LA",Combined statistical area
+CSAFP,221,"Dixon-Sterling, IL",Combined statistical area
+CSAFP,222,"Dothan-Ozark, AL",Combined statistical area
+CSAFP,524,"State College-DuBois, PA",Combined statistical area
+CSAFP,450,"Raleigh-Durham-Cary, NC",Combined statistical area
+CSAFP,232,"Eau Claire-Menomonie, WI",Combined statistical area
+CSAFP,233,"Edwards-Glenwood Springs, CO",Combined statistical area
+CSAFP,545,"Virginia Beach-Norfolk, VA-NC",Combined statistical area
+CSAFP,515,"South Bend-Elkhart-Mishawaka, IN-MI",Combined statistical area
+CSAFP,238,"El Paso-Las Cruces, TX-NM",Combined statistical area
+CSAFP,240,"Erie-Meadville, PA",Combined statistical area
+CSAFP,390,"Morgantown-Fairmont, WV",Combined statistical area
+CSAFP,244,"Fargo-Wahpeton, ND-MN",Combined statistical area
+CSAFP,378,"Minneapolis-St. Paul, MN-WI",Combined statistical area
+CSAFP,246,"Fayetteville-Sanford-Lumberton, NC",Combined statistical area
+CSAFP,534,"Toledo-Findlay-Tiffin, OH",Combined statistical area
+CSAFP,368,"Memphis-Forrest City, TN-MS-AR",Combined statistical area
+CSAFP,497,"Scottsboro-Fort Payne, AL",Combined statistical area
+CSAFP,320,"Lafayette-West Lafayette-Frankfort, IN",Combined statistical area
+CSAFP,336,"Lexington-Fayette--Richmond--Frankfort, KY",Combined statistical area
+CSAFP,314,"Kerrville-Fredericksburg, TX",Combined statistical area
+CSAFP,466,"Rockford-Freeport-Rochelle, IL",Combined statistical area
+CSAFP,420,"Omaha-Council Bluffs-Fremont, NE-IA",Combined statistical area
+CSAFP,260,"Fresno-Madera-Hanford, CA",Combined statistical area
+CSAFP,273,"Greenville-Spartanburg-Anderson, SC",Combined statistical area
+CSAFP,264,"Gainesville-Lake City, FL",Combined statistical area
+CSAFP,396,"Myrtle Beach-Conway, SC-NC",Combined statistical area
+CSAFP,276,"Harrisburg-York-Lebanon, PA",Combined statistical area
+CSAFP,366,"Medford-Grants Pass, OR",Combined statistical area
+CSAFP,267,"Green Bay-Shawano, WI",Combined statistical area
+CSAFP,272,"Greenville-Kinston-Washington, NC",Combined statistical area
+CSAFP,448,"Quincy-Hannibal, IL-MO",Combined statistical area
+CSAFP,277,"Harrisonburg-Staunton, VA",Combined statistical area
+CSAFP,278,"Hartford-East Hartford, CT",Combined statistical area
+CSAFP,279,"Hattiesburg-Laurel, MS",Combined statistical area
+CSAFP,482,"Salt Lake City-Provo-Orem, UT",Combined statistical area
+CSAFP,496,"Savannah-Hinesville-Statesboro, GA",Combined statistical area
+CSAFP,284,"Hot Springs-Malvern, AR",Combined statistical area
+CSAFP,430,"Pittsburgh-New Castle-Weirton, PA-OH-WV",Combined statistical area
+CSAFP,361,"Marinette-Iron Mountain, WI-MI",Combined statistical area
+CSAFP,300,"Jacksonville-St. Marys-Palatka, FL-GA",Combined statistical area
+CSAFP,522,"Springfield-Jacksonville-Lincoln, IL",Combined statistical area
+CSAFP,540,"Tyler-Jacksonville, TX",Combined statistical area
+CSAFP,324,"Lake Charles-Jennings, LA",Combined statistical area
+CSAFP,304,"Johnson City-Kingsport-Bristol, TN-VA",Combined statistical area
+CSAFP,306,"Johnstown-Somerset, PA",Combined statistical area
+CSAFP,308,"Jonesboro-Paragould, AR",Combined statistical area
+CSAFP,309,"Joplin-Miami, MO-OK",Combined statistical area
+CSAFP,313,"Kennewick-Richland-Walla Walla, WA",Combined statistical area
+CSAFP,370,"Miami-Port St. Lucie-Fort Lauderdale, FL",Combined statistical area
+CSAFP,315,"Knoxville-Morristown-Sevierville, TN",Combined statistical area
+CSAFP,316,"Kokomo-Peru, IN",Combined statistical area
+CSAFP,318,"Lafayette-Opelousas-Morgan City, LA",Combined statistical area
+CSAFP,332,"Las Vegas-Henderson, NV",Combined statistical area
+CSAFP,400,"Nashville-Davidson--Murfreesboro, TN",Combined statistical area
+CSAFP,352,"Lubbock-Plainview-Levelland, TX",Combined statistical area
+CSAFP,438,"Portland-Lewiston-South Portland, ME",Combined statistical area
+CSAFP,340,"Little Rock-North Little Rock, AR",Combined statistical area
+CSAFP,558,"Williamsport-Lock Haven, PA",Combined statistical area
+CSAFP,348,"Los Angeles-Long Beach, CA",Combined statistical area
+CSAFP,356,"Macon-Bibb County--Warner Robins, GA",Combined statistical area
+CSAFP,359,"Mankato-New Ulm, MN",Combined statistical area
+CSAFP,425,"Parkersburg-Marietta-Vienna, WV-OH",Combined statistical area
+CSAFP,362,"Martin-Union City, TN",Combined statistical area
+CSAFP,364,"Mayagüez-San Germán, PR",Combined statistical area
+CSAFP,424,"Paducah-Mayfield, KY-IL",Combined statistical area
+CSAFP,365,"McAllen-Edinburg, TX",Combined statistical area
+CSAFP,488,"San Jose-San Francisco-Oakland, CA",Combined statistical area
+CSAFP,372,"Midland-Odessa, TX",Combined statistical area
+CSAFP,508,"Shreveport-Bossier City-Minden, LA",Combined statistical area
+CSAFP,384,"Monroe-Ruston, LA",Combined statistical area
+CSAFP,404,"New Bern-Morehead City, NC",Combined statistical area
+CSAFP,446,"Pullman-Moscow, WA-ID",Combined statistical area
+CSAFP,393,"Moses Lake-Othello, WA",Combined statistical area
+CSAFP,536,"Tucson-Nogales, AZ",Combined statistical area
+CSAFP,416,"Oklahoma City-Shawnee, OK",Combined statistical area
+CSAFP,429,"Phoenix-Mesa, AZ",Combined statistical area
+CSAFP,484,"San Antonio-New Braunfels-Pearsall, TX",Combined statistical area
+CSAFP,544,"Victoria-Port Lavaca, TX",Combined statistical area
+CSAFP,452,"Rapid City-Spearfish, SD",Combined statistical area
+CSAFP,454,"Redding-Red Bluff, CA",Combined statistical area
+CSAFP,468,"Rocky Mount-Wilson-Roanoke Rapids, NC",Combined statistical area
+CSAFP,472,"Sacramento-Roseville, CA",Combined statistical area
+CSAFP,566,"Youngstown-Warren, OH-PA",Combined statistical area
+CSAFP,517,"Spencer-Spirit Lake, IA",Combined statistical area
+CSAFP,554,"Wausau-Stevens Point-Wisconsin Rapids, WI",Combined statistical area
+CSAFP,556,"Wichita-Winfield, KS",Combined statistical area
+METDIVFP,14454,"Boston, MA",Metropolitan Division
+METDIVFP,15764,"Cambridge-Newton-Framingham, MA",Metropolitan Division
+METDIVFP,40484,"Rockingham County-Strafford County, NH",Metropolitan Division
+METDIVFP,16984,"Chicago-Naperville-Evanston, IL",Metropolitan Division
+METDIVFP,20994,"Elgin, IL",Metropolitan Division
+METDIVFP,23844,"Gary, IN",Metropolitan Division
+METDIVFP,29404,"Lake County-Kenosha County, IL-WI",Metropolitan Division
+METDIVFP,19124,"Dallas-Plano-Irving, TX",Metropolitan Division
+METDIVFP,23104,"Fort Worth-Arlington-Grapevine, TX",Metropolitan Division
+METDIVFP,19804,"Detroit-Dearborn-Livonia, MI",Metropolitan Division
+METDIVFP,47664,"Warren-Troy-Farmington Hills, MI",Metropolitan Division
+METDIVFP,11244,"Anaheim-Santa Ana-Irvine, CA",Metropolitan Division
+METDIVFP,31084,"Los Angeles-Long Beach-Glendale, CA",Metropolitan Division
+METDIVFP,22744,"Fort Lauderdale-Pompano Beach-Sunrise, FL",Metropolitan Division
+METDIVFP,33124,"Miami-Miami Beach-Kendall, FL",Metropolitan Division
+METDIVFP,48424,"West Palm Beach-Boca Raton-Boynton Beach, FL",Metropolitan Division
+METDIVFP,35004,"Nassau County-Suffolk County, NY",Metropolitan Division
+METDIVFP,35084,"Newark, NJ-PA",Metropolitan Division
+METDIVFP,35154,"New Brunswick-Lakewood, NJ",Metropolitan Division
+METDIVFP,35614,"New York-Jersey City-White Plains, NY-NJ",Metropolitan Division
+METDIVFP,15804,"Camden, NJ",Metropolitan Division
+METDIVFP,33874,"Montgomery County-Bucks County-Chester County, PA",Metropolitan Division
+METDIVFP,37964,"Philadelphia, PA",Metropolitan Division
+METDIVFP,48864,"Wilmington, DE-MD-NJ",Metropolitan Division
+METDIVFP,36084,"Oakland-Berkeley-Livermore, CA",Metropolitan Division
+METDIVFP,41884,"San Francisco-San Mateo-Redwood City, CA",Metropolitan Division
+METDIVFP,42034,"San Rafael, CA",Metropolitan Division
+METDIVFP,42644,"Seattle-Bellevue-Kent, WA",Metropolitan Division
+METDIVFP,45104,"Tacoma-Lakewood, WA",Metropolitan Division
+METDIVFP,23224,"Frederick-Gaithersburg-Rockville, MD",Metropolitan Division
+METDIVFP,47894,"Washington-Arlington-Alexandria, DC-VA-MD-WV",Metropolitan Division
