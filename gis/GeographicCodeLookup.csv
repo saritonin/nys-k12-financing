@@ -1,0 +1,544 @@
+﻿FIELD_NAME,FIELD_CODE,FIELD_DESC,ASSOC_GEO_ENTITY
+CLASSFP,A1,Airport with scheduled commercial flights that also serves as a military installation,Locality Point
+CLASSFP,A1,Airport with scheduled commercial flights that also serves as a military installation,Military Installation
+CLASSFP,A3,Airport with scheduled commercial flights that does not serve as a military installation,Locality Point
+CLASSFP,A4,Airport without scheduled commercial flights that does not serve as a military installation,Locality Point
+CLASSFP,A6,Airport without scheduled commercial flights that serves as a military installation,Locality Point
+CLASSFP,A6,Airport without scheduled commercial flights that serves as a military installation,Military Installation
+CLASSFP,B0,"Post office, branch, or station",Locality Point
+CLASSFP,B3,Three-digit ZCTA,ZIP Code Tabulation Area (Three-Digit)
+CLASSFP,B5,Five-digit ZCTA,Zip Code Tabulation Area (Five-Digit)
+CLASSFP,C1,An active incorporated place that does not serve as a county subdivision equivalent,Economic Census Place
+CLASSFP,C1,An active incorporated place that does not serve as a county subdivision equivalent,Incorporated Place
+CLASSFP,C2,An active incorporated place that is legally coextensive with a county subdivision but treated as independent of any county subdivision,County Subdivision
+CLASSFP,C2,An active incorporated place that is legally coextensive with a county subdivision but treated as independent of any county subdivision,Economic Census Place
+CLASSFP,C2,An active incorporated place that is legally coextensive with a county subdivision but treated as independent of any county subdivision,Incorporated Place
+CLASSFP,C3,Consolidated City,Consolidated City
+CLASSFP,C4,Alternate official common name for an incorporated place,Locality Point
+CLASSFP,C5,An active incorporated place that is independent of any county subdivision and serves as a county subdivision equivalent,County Subdivision
+CLASSFP,C5,An active incorporated place that is independent of any county subdivision and serves as a county subdivision equivalent,Economic Census Place
+CLASSFP,C5,An active incorporated place that is independent of any county subdivision and serves as a county subdivision equivalent,Incorporated Place
+CLASSFP,C6,An active incorporated place that partially is independent of any county subdivision and serves as a county subdivision equivalent or partially coextensive with a county subdivision but treated as independent of any county subdivision,Incorporated Place
+CLASSFP,C7,An incorporated place that is independent of any county,County or Equivalent Feature
+CLASSFP,C7,An incorporated place that is independent of any county,County Subdivision
+CLASSFP,C7,An incorporated place that is independent of any county,Economic Census Place
+CLASSFP,C7,An incorporated place that is independent of any county,Incorporated Place
+CLASSFP,C8,The balance of a consolidated city excluding the separately incorporated place(s) within that consolidated government,Economic Census Place
+CLASSFP,C8,The balance of a consolidated city excluding the separately incorporated place(s) within that consolidated government,Incorporated Place
+CLASSFP,C9,An inactive or nonfunctioning incorporated place,Economic Census Place
+CLASSFP,C9,An inactive or nonfunctioning incorporated place,Incorporated Place
+CLASSFP,D0,Statistical or legal area administered and/or claimed by two or more American Indian tribes,American Indian/Alaska Native/Native Hawaiian Area
+CLASSFP,D1,Legal federally recognized American Indian area consisting of reservation and associated off-reservation trust land,American Indian/Alaska Native/Native Hawaiian Area
+CLASSFP,D2,Legal federally recognized American Indian area consisting of reservation only,American Indian/Alaska Native/Native Hawaiian Area
+CLASSFP,D3,Legal federally recognized American Indian area consisting of off-reservation trust land only,American Indian/Alaska Native/Native Hawaiian Area
+CLASSFP,D4,Legal state recognized American Indian area,American Indian/Alaska Native/Native Hawaiian Area
+CLASSFP,D5,The legal off-reservation trust land portion of an American Indian entity with both a reservation and trust land,American Indian/Alaska Native/Native Hawaiian Area
+CLASSFP,D6,"Statistical American Indian area defined for a federally recognized tribe that does not have a reservation or off-reservation trust land, specifically, a tribal designated statistical area or Oklahoma tribal statistical area, but excluding Alaska Native village statistical area",American Indian/Alaska Native/Native Hawaiian Area
+CLASSFP,D7,A tribal subdivision,Tribal Subdivision
+CLASSFP,D8,The legal reservation portion of an American Indian entity with both a reservation and trust land,American Indian/Alaska Native/Native Hawaiian Area
+CLASSFP,D9,"Statistical American Indian area defined for a state-recognized tribe that does not have a reservation or off-reservation trust land, specifically a state-designated tribal statistical area",American Indian/Alaska Native/Native Hawaiian Area
+CLASSFP,E1,Statistical area that represents the densely settled portion of an Alaska Native village; an Alaska Native village statistical area,American Indian/Alaska Native/Native Hawaiian Area
+CLASSFP,E7,Alaska Native Regional Corporation,Alaska Native Regional Corporation
+CLASSFP,F1,Legal Hawaiian home land consisting of land held in trust for the benefit of Native Hawaiians,American Indian/Alaska Native/Native Hawaiian Area
+CLASSFP,H1,An active county or equivalent feature,County or Equivalent Feature
+CLASSFP,H2,The balance of an active county or equivalent feature excluding the incorporated place(s) that separately qualify as Economic Census places,Economic Census Place
+CLASSFP,H3,The balance of an inactive county or equivalent feature excluding the incorporated place(s) that separately qualify as Economic Census places,Economic Census Place
+CLASSFP,H4,An inactive county or equivalent feature,County or Equivalent Feature
+CLASSFP,H5,A statistical county equivalent feature,County or Equivalent Feature
+CLASSFP,H6,"A county that is coextensive with an incorporated place, part of an incorporated place, or a consolidated city and the government functions of the county are part of the municipal government",County or Equivalent Feature
+CLASSFP,H7,The balance of a statistical county equivalent feature excluding the incorporated place(s) that separately qualify as EC places,Economic Census Place
+CLASSFP,I1,An EC Place that is a whole Hawaiian Island,Economic Census Place
+CLASSFP,I2,An EC Place that is a balance of a Hawaiian Island,Economic Census Place
+CLASSFP,M1,A military or other defense installation that is not entirely within a census designated place,Locality Point
+CLASSFP,M1,A military or other defense installation that is not entirely within a census designated place,Military Installation
+CLASSFP,M2,A military or other defense installation entirely within a place,Census Designated Place
+CLASSFP,M2,A military or other defense installation entirely within a place,Economic Census Place
+CLASSFP,M2,A military or other defense installation entirely within a place,Military Installation
+CLASSFP,M3,Health care facility,Locality Point
+CLASSFP,M4,"Federally managed park, forest, or other area",Locality Point
+CLASSFP,M4,"Federally managed park, forest, or other area",Park
+CLASSFP,M9,Federal facility not classified elsewhere,Locality Point
+CLASSFP,N1,National Guard installation,Locality Point
+CLASSFP,N1,National Guard installation,Military Installation
+CLASSFP,N9,"International, state, tribal, or local government facility",Locality Point
+CLASSFP,N9,"International, state, tribal, or local government facility",Military Installation
+CLASSFP,R0,"Park, forest, or other reserve not federally managed or unknown",Park
+CLASSFP,S1,A nonfunctioning county subdivision that is coextensive with a census designated place,County Subdivision
+CLASSFP,S2,A statistical county subdivision that is coextensive with a census designated place,County Subdivision
+CLASSFP,S3,"A statistical county subdivision that is coextensive with a legal American Indian, Alaska Native, or Native Hawaiian area",County Subdivision
+CLASSFP,T1,An active county subdivision that is not coextensive with an incorporated place,County Subdivision
+CLASSFP,T1,An active county subdivision that is not coextensive with an incorporated place,Economic Census Place
+CLASSFP,T2,An active county subdivision that is coextensive with a census designated place,County Subdivision
+CLASSFP,T5,An active county subdivision that is coextensive with an incorporated place,County Subdivision
+CLASSFP,T8,The balance of a county subdivision excluding the incorporated place(s) that separately qualify as Economic Places,Economic Census Place
+CLASSFP,T9,An inactive county subdivision,County Subdivision
+CLASSFP,U1,A census designated place with an official federally recognized name,Census Designated Place
+CLASSFP,U1,A census designated place with an official federally recognized name,Economic Census Place
+CLASSFP,U2,A census designated place without an official federally recognized name,Census Designated Place
+CLASSFP,U2,A census designated place without an official federally recognized name,Economic Census Place
+CLASSFP,U3,Alternate official common name for a census designated place,Locality Point
+CLASSFP,U4,Alternate official common name for a populated location within an incorporated place,Locality Point
+CLASSFP,U5,A census designated place that is coextensive with a county subdivision,Census Designated Place
+CLASSFP,U6,A populated place that is not a census designated or incorporated place having an official federally recognized name,Locality Point
+CLASSFP,U8,A populated place that is not a census designated or incorporated place that does not have an official federally recognized name,Locality Point
+CLASSFP,Z1,A nonfunctioning county subdivision,County Subdivision
+CLASSFP,Z1,A nonfunctioning county subdivision,Economic Census Place
+CLASSFP,Z1,A nonfunctioning county subdivision,Estate
+CLASSFP,Z2,"A county subdivision that is coextensive with an American Indian, Alaska Native, or Native Hawaiian area and legally is independent of any other county subdivision",County Subdivision
+CLASSFP,Z3,A county subdivision defined as an unorganized territory,County Subdivision
+CLASSFP,Z3,A county subdivision defined as an unorganized territory,Economic Census Place
+CLASSFP,Z4,A nonfunctioning or disorganized historical county subdivision no longer recognized by the Census Bureau,Locality Point
+CLASSFP,Z5,A statistical county subdivision,County Subdivision
+CLASSFP,Z6,Subminor civil division,Sub-Minor Civil Division
+CLASSFP,Z7,A county subdivision that is coextensive with a county or equivalent feature or all or part of an incorporated place that the Census Bureau recognizes separately,County Subdivision
+CLASSFP,Z7,A county subdivision that is coextensive with a county or equivalent feature or all or part of an incorporated place that the Census Bureau recognizes separately,Locality Point
+CLASSFP,Z8,A county subdivision that is legally coextensive with all or part of an incorporated place that the Census Bureau does not recognize,Locality Point
+CLASSFP,Z9,County subdivision not defined,County Subdivision
+LSAD,00,,American Indian Area
+LSAD,00,,Congressional District
+LSAD,00,,Consolidated City
+LSAD,00,,County or Equivalent Feature
+LSAD,00,,County Subdivision
+LSAD,00,,Economic Census Place
+LSAD,00,,Elementary School District
+LSAD,00,,Incorporated Place
+LSAD,00,,Local/Tribal Legislative District
+LSAD,00,,Military Installation
+LSAD,00,,Nation
+LSAD,00,,Secondary School District
+LSAD,00,,Special School Administrative Area
+LSAD,00,,Special-Purpose District
+LSAD,00,,State Legislative District (Lower Chamber)
+LSAD,00,,State Legislative District (Upper Chamber)
+LSAD,00,,State or Equivalent Feature
+LSAD,00,,Tribal Subdivision
+LSAD,00,,Unified School District
+LSAD,00,,Voting District
+LSAD,03,City and Borough (suffix),County or Equivalent Feature
+LSAD,04,Borough (suffix),County or Equivalent Feature
+LSAD,05,Census Area (suffix),County or Equivalent Feature
+LSAD,06,Balance of County EC Place,Economic Census Place
+LSAD,06,County (suffix),County or Equivalent Feature
+LSAD,07,District (suffix),County or Equivalent Feature
+LSAD,10,Island (suffix),County or Equivalent Feature
+LSAD,10,Island (suffix),Economic Census Place
+LSAD,12,Municipality (suffix),County or Equivalent Feature
+LSAD,13,Municipio (suffix),County or Equivalent Feature
+LSAD,15,Parish (suffix),County or Equivalent Feature
+LSAD,15,Parish (suffix),Economic Census Place
+LSAD,20,barrio (suffix),County Subdivision
+LSAD,21,borough (suffix),County Subdivision
+LSAD,21,borough (suffix),Economic Census Place
+LSAD,22,CCD (suffix),County Subdivision
+LSAD,23,census subarea (suffix),County Subdivision
+LSAD,24,census subdistrict (suffix),County Subdivision
+LSAD,25,city (suffix),Consolidated City
+LSAD,25,city (suffix),County or Equivalent Feature
+LSAD,25,city (suffix),County Subdivision
+LSAD,25,city (suffix),Economic Census Place
+LSAD,25,city (suffix),Incorporated Place
+LSAD,26,county (suffix),County Subdivision
+LSAD,26,county (suffix),Economic Census Place
+LSAD,27,district (suffix),County Subdivision
+LSAD,27,district (suffix),Economic Census Place
+LSAD,28,District (prefix),County Subdivision
+LSAD,28,District (prefix),Tribal Subdivision
+LSAD,29,precinct (suffix),County Subdivision
+LSAD,30,Precinct (prefix),County Subdivision
+LSAD,31,gore (suffix),County Subdivision
+LSAD,32,grant (suffix),County Subdivision
+LSAD,36,location (suffix),County Subdivision
+LSAD,37,municipality (suffix),Economic Census Place
+LSAD,37,municipality (suffix),Incorporated Place
+LSAD,39,plantation (suffix),County Subdivision
+LSAD,41,barrio-pueblo (suffix),County Subdivision
+LSAD,42,purchase (suffix),County Subdivision
+LSAD,43,town (suffix),County Subdivision
+LSAD,43,town (suffix),Economic Census Place
+LSAD,43,town (suffix),Incorporated Place
+LSAD,44,township (suffix),County Subdivision
+LSAD,44,township (suffix),Economic Census Place
+LSAD,45,Township (prefix),County Subdivision
+LSAD,46,UT (suffix),County Subdivision
+LSAD,47,village (suffix),County Subdivision
+LSAD,47,village (suffix),Economic Census Place
+LSAD,47,village (suffix),Incorporated Place
+LSAD,49,charter township (suffix),County Subdivision
+LSAD,49,charter township (suffix),Economic Census Place
+LSAD,51,subbarrio (suffix),Sub-Minor Civil Division
+LSAD,53,city and borough (suffix),Economic Census Place
+LSAD,53,city and borough (suffix),Incorporated Place
+LSAD,55,comunidad (suffix),Census Designated Place
+LSAD,57,CDP (suffix),Census Designated Place
+LSAD,57,CDP (suffix),Economic Census Place
+LSAD,62,zona urbana (suffix),Census Designated Place
+LSAD,68,Region (suffix),Census Region
+LSAD,69,Division (suffix),Census Division
+LSAD,70,UGA (suffix),Urban Growth Area
+LSAD,71,CMSA,Consolidated Metropolitan Statistical Area and Metropolitan Statistical Area
+LSAD,72,MSA,Consolidated Metropolitan Statistical Area and Metropolitan Statistical Area
+LSAD,73,Primary Metropolitan Statistical Area,Primary Metropolitan Statistical Area
+LSAD,74,New England County Metropolitan Area,New England County Metropolitan Area
+LSAD,75,Urbanized Area (suffix),Urban Area
+LSAD,76,Urban Cluster (suffix),Urban Area
+LSAD,77,Alaska Native Regional Corporation (suffix),Alaska Native Regional Corporation
+LSAD,78,Hawaiian Home Land (suffix),Hawaiian Home Land
+LSAD,79,ANVSA (suffix),Alaska Native Village Statistical Area
+LSAD,80,TDSA (suffix),Tribal Designated Statistical Area
+LSAD,81,Colony (suffix),American Indian Area
+LSAD,82,Community (suffix),American Indian Area
+LSAD,82,Community (suffix),Tribal Subdivision
+LSAD,83,joint-use area (suffix),American Indian Joint Use Area
+LSAD,84,Pueblo (suffix),American Indian Area
+LSAD,85,Rancheria (suffix),American Indian Area
+LSAD,86,Reservation (suffix),American Indian Area
+LSAD,86,Reservation (suffix),County Subdivision
+LSAD,87,Reserve (suffix),American Indian Area
+LSAD,88,OTSA (suffix),Oklahoma Tribal Statistical Area
+LSAD,89,Trust Land (suffix),American Indian Area
+LSAD,90,joint-use OTSA (suffix),American Indian Joint Use Area
+LSAD,91,Ranch (suffix),American Indian Area
+LSAD,92,SDTSA (suffix),State-designated Tribal Statistical Area
+LSAD,93,Indian Village (suffix),American Indian Area
+LSAD,94,Village (suffix),American Indian Area
+LSAD,95,Indian Community (suffix),American Indian Area
+LSAD,96,Indian Reservation (suffix),American Indian Area
+LSAD,97,Indian Rancheria (suffix),American Indian Area
+LSAD,98,Indian Colony (suffix),American Indian Area
+LSAD,99,Pueblo de,American Indian Area
+LSAD,9C,Pueblo of,American Indian Area
+LSAD,9D,Ranch Reservation (suffix),American Indian Area
+LSAD,9E,Rancheria Reservation (suffix),American Indian Area
+LSAD,9F,Ranches (suffix),American Indian Area
+LSAD,B1,Balance of County,Economic Census Place
+LSAD,B2,Balance of Parish,Economic Census Place
+LSAD,B3,Balance of Borough,Economic Census Place
+LSAD,B4,Balance of Census Area,Economic Census Place
+LSAD,B5,town (balance),Economic Census Place
+LSAD,B6,township (balance),Economic Census Place
+LSAD,B7,charter township (balance),Economic Census Place
+LSAD,B8,Balance of,Economic Census Place
+LSAD,BG,Block Group (prefix),Block Group
+LSAD,BI,Balance of Island,Economic Census Place
+LSAD,BK,Block (prefix),Tabulation Block
+LSAD,BL,(balance),Incorporated Place
+LSAD,C1,Congressional District (at Large) (actual text),Congressional District
+LSAD,C2,Congressional District (prefix),Congressional District
+LSAD,C3,Resident Commissioner District (at Large) (actual text),Congressional District
+LSAD,C4,Delegate District (at Large) (actual text),Congressional District
+LSAD,C5,No Representative (actual text),Congressional District
+LSAD,CB,consolidated government (balance),Incorporated Place
+LSAD,CG,consolidated government (suffix),Consolidated City
+LSAD,CG,consolidated government (suffix),Economic Census Place
+LSAD,CN,corporation (suffix),Incorporated Place
+LSAD,CR,Commercial Region (suffix),Commercial Region
+LSAD,CT,Census Tract (prefix),Census Tract
+LSAD,IB,Tribal Block Group (prefix),Tribal Block Group
+LSAD,IT,Tribal Census Tract (prefix),Tribal Census Tract
+LSAD,L1,Ward (prefix),State Legislative District (Upper Chamber)
+LSAD,L2,Senatorial District (suffix),State Legislative District (Upper Chamber)
+LSAD,L3,Assembly District (prefix),State Legislative District (Lower Chamber)
+LSAD,L4,General Assembly District (prefix),State Legislative District (Lower Chamber)
+LSAD,L5,State Legislative District (prefix),State Legislative District (Lower Chamber)
+LSAD,L6,State Legislative Subdistrict (prefix),State Legislative District (Lower Chamber)
+LSAD,L7,District,State Legislative District (Lower Chamber)
+LSAD,L7,District,State Legislative District (Upper Chamber)
+LSAD,LL,State House District (prefix),State Legislative District (Lower Chamber)
+LSAD,LU,State Senate District (prefix),State Legislative District (Upper Chamber)
+LSAD,M0,CSA (suffix),Combined Statistical Area
+LSAD,M1,Metro Area (suffix),Metropolitan and Micropolitan Statistical Area
+LSAD,M2,Micro Area (suffix),Metropolitan and Micropolitan Statistical Area
+LSAD,M3,Metro Division (suffix),Metropolitan Division
+LSAD,M4,Combined NECTA (suffix),Combined New England City and Town Area
+LSAD,M5,Metropolitan NECTA (suffix),New England City and Town Metropolitan and Micropolitan Statistical Area
+LSAD,M6,Micropolitan NECTA (suffix),New England City and Town Metropolitan and Micropolitan Statistical Area
+LSAD,M7,NECTA Division (suffix),New England City and Town Division
+LSAD,MB,metropolitan government (balance),Economic Census Place
+LSAD,MB,metropolitan government (balance),Incorporated Place
+LSAD,MG,metropolitan government (suffix),Consolidated City
+LSAD,MG,metropolitan government (suffix),Economic Census Place
+LSAD,MG,metropolitan government (suffix),Incorporated Place
+LSAD,MT,metro government (suffix),Consolidated City
+LSAD,P1,SuperPUMA (prefix),Public-Use Microdata Area (1% Area)
+LSAD,P5,PUMA (prefix),Public-Use Microdata Area (5% or 10% Area)
+LSAD,T1,Area (suffix),Tribal Subdivision
+LSAD,T2,Chapter (suffix),Tribal Subdivision
+LSAD,T3,Segment (suffix),Tribal Subdivision
+LSAD,TA,Administrative Area (suffix),Tribal Subdivision
+LSAD,TB,Addition (suffix),Tribal Subdivision
+LSAD,TC,County District (prefix),Tribal Subdivision
+LSAD,TZ,TAZ (prefix),Traffic Analysis Zone
+LSAD,UB,unified government (balance),Incorporated Place
+LSAD,UC,urban county (suffix),Economic Census Place
+LSAD,UC,urban county (suffix),Incorporated Place
+LSAD,UG,unified government (suffix),Consolidated City
+LSAD,UG,unified government (suffix),Economic Census Place
+LSAD,UG,unified government (suffix),Incorporated Place
+LSAD,V1,Voting District (prefix),Voting District
+LSAD,V2,Voting District (suffix),Voting District
+LSAD,Z3,ZCTA3 (suffix),ZIP Code Tabulation Area (Three-Digit)
+LSAD,Z5,ZCTA5 (suffix),Zip Code Tabulation Area (Five-Digit)
+FUNCSTAT,A,Active government providing primary general-purpose functions,Consolidated City
+FUNCSTAT,A,Active government providing primary general-purpose functions,County or Equivalent Feature
+FUNCSTAT,A,Active government providing primary general-purpose functions,County Subdivision
+FUNCSTAT,A,Active government providing primary general-purpose functions,Economic Census Place
+FUNCSTAT,A,Active government providing primary general-purpose functions,Place
+FUNCSTAT,A,Active government providing primary general-purpose functions,Nation
+FUNCSTAT,A,Active government providing primary general-purpose functions,State or Equivalent
+FUNCSTAT,A,Active government providing primary general-purpose functions,Tribal Subdivision
+FUNCSTAT,A,Active entity (federally recognized entities only),American Indian/Alaska Native/Native Hawaiian Area
+FUNCSTAT,B,Active government that is partially consolidated with another government but with separate officials providing primary general-purpose functions,County or Equivalent Feature
+FUNCSTAT,B,Active government that is partially consolidated with another government but with separate officials providing primary general-purpose functions,County Subdivision
+FUNCSTAT,B,Active government that is partially consolidated with another government but with separate officials providing primary general-purpose functions,Economic Census Place
+FUNCSTAT,B,Active government that is partially consolidated with another government but with separate officials providing primary general-purpose functions,Incorporated Place
+FUNCSTAT,C,Active government consolidated with another government with a single set of officials,County or Equivalent Feature
+FUNCSTAT,C,Active government consolidated with another government with a single set of officials,County Subdivision
+FUNCSTAT,C,Active government consolidated with another government with a single set of officials,Economic Census Place
+FUNCSTAT,E,Active government providing special-purpose functions,Elementary School District
+FUNCSTAT,E,Active government providing special-purpose functions,Secondary School District
+FUNCSTAT,E,Active government providing special-purpose functions,Special School Administrative Area
+FUNCSTAT,E,Active government providing special-purpose functions,Special-Purpose District
+FUNCSTAT,E,Active government providing special-purpose functions,Unified School District
+FUNCSTAT,F,Fictitious entity created to fill the Census Bureau geographic hierarchy,American Indian/Alaska Native/Native Hawaiian Area
+FUNCSTAT,F,Fictitious entity created to fill the Census Bureau geographic hierarchy,County or Equivalent Feature
+FUNCSTAT,F,Fictitious entity created to fill the Census Bureau geographic hierarchy,County Subdivision
+FUNCSTAT,F,Fictitious entity created to fill the Census Bureau geographic hierarchy,Economic Census Place
+FUNCSTAT,F,Fictitious entity created to fill the Census Bureau geographic hierarchy,Elementary School District
+FUNCSTAT,F,Fictitious entity created to fill the Census Bureau geographic hierarchy,Incorporated Place
+FUNCSTAT,F,Fictitious entity created to fill the Census Bureau geographic hierarchy,Secondary School District
+FUNCSTAT,F,Fictitious entity created to fill the Census Bureau geographic hierarchy,State Legislative District (Lower Chamber)
+FUNCSTAT,F,Fictitious entity created to fill the Census Bureau geographic hierarchy,State Legislative District (Upper Chamber)
+FUNCSTAT,F,Fictitious entity created to fill the Census Bureau geographic hierarchy,Unified School District
+FUNCSTAT,F,Fictitious entity created to fill the Census Bureau geographic hierarchy,Voting District
+FUNCSTAT,G,Active government that is subordinate to another unit of government,County Subdivision
+FUNCSTAT,I,Inactive governmental unit that has the power to provide primary special-purpose functions,County Subdivision
+FUNCSTAT,I,Inactive governmental unit that has the power to provide primary special-purpose functions,Elementary School District
+FUNCSTAT,I,Inactive governmental unit that has the power to provide primary special-purpose functions,Incorporated Place
+FUNCSTAT,I,Inactive governmental unit that has the power to provide primary special-purpose functions,Secondary School District
+FUNCSTAT,I,Inactive governmental unit that has the power to provide primary special-purpose functions,Special School Administrative Area
+FUNCSTAT,I,Inactive governmental unit that has the power to provide primary special-purpose functions,Unified School District
+FUNCSTAT,L,"Inactive, nonfunctioning legal real property entity with potential quasi-legal administrative functions",Military Installation
+FUNCSTAT,L,"Inactive, nonfunctioning legal real property entity with potential quasi-legal administrative functions",Park
+FUNCSTAT,M,Active legal real property entity with quasi-legal functions,Military Installation
+FUNCSTAT,N,Nonfunctioning legal entity,Alaska Native Regional Corporation
+FUNCSTAT,N,Nonfunctioning legal entity,American Indian/Alaska Native/Native Hawaiian Area
+FUNCSTAT,N,Nonfunctioning legal entity,Congressional District
+FUNCSTAT,N,Nonfunctioning legal entity,County or Equivalent Feature
+FUNCSTAT,N,Nonfunctioning legal entity,County Subdivision
+FUNCSTAT,N,Nonfunctioning legal entity,Economic Census Place
+FUNCSTAT,N,Nonfunctioning legal entity,Elementary School District
+FUNCSTAT,N,Nonfunctioning legal entity,Incorporated Place
+FUNCSTAT,N,Nonfunctioning legal entity,Local/Tribal Legislative District
+FUNCSTAT,N,Nonfunctioning legal entity,Secondary School District
+FUNCSTAT,N,Nonfunctioning legal entity,Special School Administrative Area
+FUNCSTAT,N,Nonfunctioning legal entity,Special-Purpose District
+FUNCSTAT,N,Nonfunctioning legal entity,State Legislative District (Lower Chamber)
+FUNCSTAT,N,Nonfunctioning legal entity,State Legislative District (Upper Chamber)
+FUNCSTAT,N,Nonfunctioning legal entity,State or Equivalent Feature
+FUNCSTAT,N,Nonfunctioning legal entity,Sub-Minor Civil Division
+FUNCSTAT,N,Nonfunctioning legal entity,Tribal Subdivision
+FUNCSTAT,N,Nonfunctioning legal entity,Unified School District
+FUNCSTAT,N,Nonfunctioning legal entity,Urban Growth Area
+FUNCSTAT,N,Nonfunctioning legal entity,Voting District
+FUNCSTAT,S,Statistical entity,American Indian/Alaska Native/Native Hawaiian Area
+FUNCSTAT,S,Statistical entity,Block Area Grouping
+FUNCSTAT,S,Statistical entity,Block Group
+FUNCSTAT,S,Statistical entity,Census Designated Place
+FUNCSTAT,S,Statistical entity,Census Division
+FUNCSTAT,S,Statistical entity,Census Region
+FUNCSTAT,S,Statistical entity,Census Super Tract
+FUNCSTAT,S,Statistical entity,Census Tract
+FUNCSTAT,S,Statistical entity,Collection Block
+FUNCSTAT,S,Statistical entity,Combined New England City and Town Area
+FUNCSTAT,S,Statistical entity,Combined Statistical Area
+FUNCSTAT,S,Statistical entity,Commercial Region
+FUNCSTAT,S,Statistical entity,Consolidated Metropolitan Statistical Area and Metropolitan Statistical Area
+FUNCSTAT,S,Statistical entity,County or Equivalent Feature
+FUNCSTAT,S,Statistical entity,County Subdivision
+FUNCSTAT,S,Statistical entity,Economic Census Place
+FUNCSTAT,S,Statistical entity,Local/Tribal Legislative District
+FUNCSTAT,S,Statistical entity,Metropolitan and Micropolitan Statistical Area
+FUNCSTAT,S,Statistical entity,Metropolitan Division
+FUNCSTAT,S,Statistical entity,New England City and Town Division
+FUNCSTAT,S,Statistical entity,New England City and Town Metropolitan and Micropolitan Statistical Area
+FUNCSTAT,S,Statistical entity,New England County Metropolitan Area
+FUNCSTAT,S,Statistical entity,Primary Metropolitan Statistical Area
+FUNCSTAT,S,Statistical entity,Public-Use Microdata Area (1% Area)
+FUNCSTAT,S,Statistical entity,Public-Use Microdata Area (5% or 10% Area)
+FUNCSTAT,S,Statistical entity,Special School Administrative Area
+FUNCSTAT,S,Statistical entity,Tabulation Block
+FUNCSTAT,S,Statistical entity,Test Census Area (FLD Area)
+FUNCSTAT,S,Statistical entity,Traffic Analysis Zone
+FUNCSTAT,S,Statistical entity,Tribal Block Group
+FUNCSTAT,S,Statistical entity,Tribal Census Tract
+FUNCSTAT,S,Statistical entity,Tribal Subdivision
+FUNCSTAT,S,Statistical entity,Urban Area
+FUNCSTAT,S,Statistical entity,Voting District
+FUNCSTAT,S,Statistical entity,Zip Code Tabulation Area (Five-Digit)
+FUNCSTAT,S,Statistical entity,ZIP Code Tabulation Area (Three-Digit)
+FUNCSTAT,T,Active state-recognized entity,American Indian/Alaska Native/Native Hawaiian Area
+MTFCC,C3022,Mountain Peak or Summit,Miscellaneous Topographic Features
+MTFCC,C3023,Island,Miscellaneous Topographic Features
+MTFCC,C3024,Levee,Miscellaneous Topographic Features
+MTFCC,C3026,"Quarry (not water-filled), Open Pit Mine or Mine",Miscellaneous Topographic Features
+MTFCC,C3027,Dam,Miscellaneous Topographic Features
+MTFCC,C3061,Cul-de-sac,Miscellaneous Topographic Features
+MTFCC,C3062,Traffic Circle,Miscellaneous Topographic Features
+MTFCC,C3066,Gate,Miscellaneous Topographic Features
+MTFCC,C3067,Toll Booth,Miscellaneous Topographic Features
+MTFCC,C3071,Tower,Miscellaneous Topographic Features
+MTFCC,C3074,Lighthouse Beacon,Miscellaneous Topographic Features
+MTFCC,C3075,Tank/Tank Farm,Miscellaneous Topographic Features
+MTFCC,C3076,Windmill Farm,Miscellaneous Topographic Features
+MTFCC,C3077,Solar Farm,Miscellaneous Topographic Features
+MTFCC,C3078,Monument or Memorial,Miscellaneous Topographic Features
+MTFCC,C3079,Boundary Monument Point,Miscellaneous Topographic Features
+MTFCC,C3080,Survey Control Point,Miscellaneous Topographic Features
+MTFCC,C3081,Locality Point,Miscellaneous Topographic Features
+MTFCC,C3085,Alaska Native Village Official Point,Miscellaneous Topographic Features
+MTFCC,G1000,Nation,Tabulation Area
+MTFCC,G1100,Census Region,Tabulation Area
+MTFCC,G1200,Census Division,Tabulation Area
+MTFCC,G2100,American Indian Area (AIA),"American Indian, Alaska Native, or Native Hawaiian Area"
+MTFCC,G2120,Hawaiian Home Land (HH),"American Indian, Alaska Native, or Native Hawaiian Area"
+MTFCC,G2130,Alaska Native Village Statistical Area (ANVSA),"American Indian, Alaska Native, or Native Hawaiian Area"
+MTFCC,G2140,Oklahoma Tribal Statistical Area (OTSA),"American Indian, Alaska Native, or Native Hawaiian Area"
+MTFCC,G2150,State-Designated Tribal Statistical Area (SDTSA),"American Indian, Alaska Native, or Native Hawaiian Area"
+MTFCC,G2160,Tribal Designated Statistical Area (TDSA),"American Indian, Alaska Native, or Native Hawaiian Area"
+MTFCC,G2170,American Indian Joint-Use Area (AIJUA),"American Indian, Alaska Native, or Native Hawaiian Area"
+MTFCC,G2200,Alaska Native Regional Corporation,Tabulation Area
+MTFCC,G2300,Tribal Subdivision,Tabulation Area
+MTFCC,G2400,Tribal Census Tract,Tabulation Area
+MTFCC,G2410,Tribal Block Group,Tabulation Area
+MTFCC,G3100,Combined Statistical Area,Tabulation Area
+MTFCC,G3110,Metropolitan and Micropolitan Statistical Area,Tabulation Area
+MTFCC,G3120,Metropolitan Division,Tabulation Area
+MTFCC,G3200,Combined New England City and Town Area,Tabulation Area
+MTFCC,G3210,New England City and Town Metropolitan and Micropolitan Statistical Area,Tabulation Area
+MTFCC,G3220,New England City and Town Division,Tabulation Area
+MTFCC,G3500,Urban Area,Tabulation Area
+MTFCC,G4000,State or Equivalent Feature,Tabulation Area
+MTFCC,G4020,County or Equivalent Feature,Tabulation Area
+MTFCC,G4040,County Subdivision,Tabulation Area
+MTFCC,G4050,Estate,Tabulation Area
+MTFCC,G4060,Sub-Minor Civil Division,Tabulation Area
+MTFCC,G4110,Incorporated Place,Tabulation Area
+MTFCC,G4120,Consolidated City,Tabulation Area
+MTFCC,G4210,Census Designated Place,Tabulation Area
+MTFCC,G4300,Economic Census Place,Tabulation Area
+MTFCC,G5020,Census Tract,Tabulation Area
+MTFCC,G5030,Block Group,Tabulation Area
+MTFCC,G5040,Tabulation Block,Tabulation Area
+MTFCC,G5200,Congressional District,Tabulation Area
+MTFCC,G5210,State Legislative District (Upper Chamber),Tabulation Area
+MTFCC,G5220,State Legislative District (Lower Chamber),Tabulation Area
+MTFCC,G5240,Voting District,Tabulation Area
+MTFCC,G5400,Elementary School District,Tabulation Area
+MTFCC,G5410,Secondary School District,Tabulation Area
+MTFCC,G5420,Unified School District,Tabulation Area
+MTFCC,G6120,Public Use Microdata Area (PUMA),Tabulation Area
+MTFCC,G6300,Traffic Analysis District,Tabulation Area
+MTFCC,G6320,Traffic Analysis Zone,Tabulation Area
+MTFCC,G6330,Urban Growth Area,Tabulation Area
+MTFCC,G6350,Zip Code Tabulation Area (Five-Digit),Tabulation Area
+MTFCC,G6400,Planning Region,Tabulation Area
+MTFCC,H1100,Connector,Hydrographic Features
+MTFCC,H2030,Lake/Pond,Hydrographic Features
+MTFCC,H2040,Reservoir,Hydrographic Features
+MTFCC,H2041,Treatment Pond,Hydrographic Features
+MTFCC,H2051,Bay/Estuary/Gulf/Sound,Hydrographic Features
+MTFCC,H2053,Ocean/Sea,Hydrographic Features
+MTFCC,H2081,Glacier,Hydrographic Features
+MTFCC,H3010,Stream/River,Hydrographic Features
+MTFCC,H3013,Braided Stream,Hydrographic Features
+MTFCC,H3020,"Canal, Ditch, or Aqueduct",Hydrographic Features
+MTFCC,K1121,Apartment Building or Complex,Potential Living Quarters
+MTFCC,K1223,Trailer Court or Mobile Home Park,Potential Living Quarters
+MTFCC,K1225,Crew-of-Vessel Location,Potential Living Quarters
+MTFCC,K1226,Housing Facility/Dormitory for Workers,Potential Living Quarters
+MTFCC,K1227,"Hotel, Motel, Resort, Spa, Hostel, YMCA, or YWCA",Potential Living Quarters
+MTFCC,K1228,Campground,Potential Living Quarters
+MTFCC,K1229,Shelter or Mission,Potential Living Quarters
+MTFCC,K1231,Hospital/Hospice/Urgent Care Facility,Potential Living Quarters
+MTFCC,K1233,"Nursing Home, Retirement Home, or Home for the Aged",Potential Living Quarters
+MTFCC,K1235,Juvenile Institution,Potential Living Quarters
+MTFCC,K1236,Local Jail or Detention Center,Potential Living Quarters
+MTFCC,K1237,"Federal Penitentiary, State Prison, or Prison Farm",Potential Living Quarters
+MTFCC,K1238,Other Correctional Institution,Potential Living Quarters
+MTFCC,K1239,"Convent, Monastery, Rectory, Other Religious Group Quarters",Potential Living Quarters
+MTFCC,K2100,Governmental,Workplaces
+MTFCC,K2110,Military Installation,Governmental
+MTFCC,K2146,Community Center,Governmental
+MTFCC,K2165,Government Center,Governmental
+MTFCC,K2167,Convention Center,Governmental
+MTFCC,K2180,Park,Governmental
+MTFCC,K2181,National Park Service Land,Park
+MTFCC,K2182,National Forest or Other Federal Land,Park
+MTFCC,K2183,"Tribal Park, Forest, or Recreation Area",Park
+MTFCC,K2184,"State Park, Forest, or Recreation Area",Park
+MTFCC,K2185,"Regional Park, Forest, or Recreation Area",Park
+MTFCC,K2186,"County Park, Forest, or Recreation Area",Park
+MTFCC,K2187,"County Subdivision Park, Forest, or Recreation Area",Park
+MTFCC,K2188,"Incorporated Place Park, Forest, or Recreation Area",Park
+MTFCC,K2189,"Private Park, Forest, or Recreation Area",Park
+MTFCC,K2190,"Other Park, Forest, or Recreation Area (quasi-public, independent park commission, etc.)",Park
+MTFCC,K2191,Post Office,Governmental
+MTFCC,K2193,Fire Department,Governmental
+MTFCC,K2194,Police Station,Governmental
+MTFCC,K2195,Library,Governmental
+MTFCC,K2196,City/Town Hall,Governmental
+MTFCC,K2300,Commercial Workplace,Workplaces
+MTFCC,K2361,Shopping Center or Major Retail Center,Commercial Workplace
+MTFCC,K2362,Industrial Building or Industrial Park,Commercial Workplace
+MTFCC,K2363,Office Building or Office Park,Commercial Workplace
+MTFCC,K2364,Farm/Vineyard/Winery/Orchard,Commercial Workplace
+MTFCC,K2366,Other Employment Center,Commercial Workplace
+MTFCC,K2400,Transportation Terminal,Workplaces
+MTFCC,K2424,Marina,Transportation Terminal
+MTFCC,K2432,Pier/Dock,Transportation Terminal
+MTFCC,K2451,Airport or Airfield,Transportation Terminal
+MTFCC,K2452,"Train Station, Trolley or Mass Transit Rail Station",Transportation Terminal
+MTFCC,K2453,Bus Terminal,Transportation Terminal
+MTFCC,K2454,Marine Terminal,Transportation Terminal
+MTFCC,K2455,Seaplane Anchorage,Transportation Terminal
+MTFCC,K2457,Airport—Statistical Representation,Transportation Terminal
+MTFCC,K2459,Runway/Taxiway,Transportation Terminal
+MTFCC,K2460,Helicopter Landing Pad,Transportation Terminal
+MTFCC,K2540,University or College,Other Workplace
+MTFCC,K2543,School or Academy,Other Workplace
+MTFCC,K2545,"Museum, Visitor Center, Cultural Center, or Tourist Attraction",Other Workplace
+MTFCC,K2561,Golf Course,Other Workplace
+MTFCC,K2564,Amusement Center,Other Workplace
+MTFCC,K2582,Cemetery,Other Workplace
+MTFCC,K2586,Zoo,Other Workplace
+MTFCC,K3544,Place of Worship,Other Workplace
+MTFCC,L4010,Pipeline,Miscellaneous Linear Features
+MTFCC,L4020,Powerline,Miscellaneous Linear Features
+MTFCC,L4031,Aerial Tramway/Ski Lift,Miscellaneous Linear Features
+MTFCC,L4110,Fence Line,Miscellaneous Linear Features
+MTFCC,L4121,Ridge Line,Miscellaneous Linear Features
+MTFCC,L4125,Cliff/Escarpment,Miscellaneous Linear Features
+MTFCC,L4130,Point-to-Point Line,Miscellaneous Linear Features
+MTFCC,L4140,Property/Parcel Line (Including PLSS),Miscellaneous Linear Features
+MTFCC,L4150,Coastline,Miscellaneous Linear Features
+MTFCC,L4165,Ferry Crossing,Miscellaneous Linear Features
+MTFCC,P0001,Nonvisible Linear Legal/Statistical Boundary,Bounding Edges and Non-Feature Edges
+MTFCC,P0002,Perennial Shoreline,Bounding Edges and Non-Feature Edges
+MTFCC,P0003,Intermittent Shoreline,Bounding Edges and Non-Feature Edges
+MTFCC,P0004,Other Non-Visible Edge,Bounding Edges and Non-Feature Edges
+MTFCC,R1011,Rail Feature,Rail Features
+MTFCC,S1100,Primary Road,Road/Path Features
+MTFCC,S1200,Secondary Road,Road/Path Features
+MTFCC,S1400,"Local Neighborhood Road, Rural Road, City Street",Road/Path Features
+MTFCC,S1500,Vehicular Trail (4WD),Road/Path Features
+MTFCC,S1630,Ramp,Road/Path Features
+MTFCC,S1640,Service Drive usually along a limited access highway,Road/Path Features
+MTFCC,S1710,Walkway/Pedestrian Trail,Road/Path Features
+MTFCC,S1720,Stairway,Road/Path Features
+MTFCC,S1730,Alley,Road/Path Features
+MTFCC,S1740,"Private Road for service vehicles (logging, oil fields, ranches, etc.)",Road/Path Features
+MTFCC,S1750,Internal U.S. Census Bureau use,Road/Path Features
+MTFCC,S1780,Parking Lot Road,Road/Path Features
+MTFCC,S1810,Winter Trail,Road/Path Features
+MTFCC,S1820,Bike Path or Trail,Road/Path Features
+MTFCC,S1830,Bridle Path,Road/Path Features
